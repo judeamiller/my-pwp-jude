@@ -17,7 +17,7 @@
 			<p><strong>Name: </strong>Millicent Powers</p>
 			<p><strong>Age: </strong>41</p>
 			<p><strong>Gender: </strong>Female</p>
-			<img src="./mpowers.jpg" alt="Photo of Millicent" style="width:200px;height: 200px"/>
+			<img src="./images/mpowers.jpg" alt="Photo of Millicent" style="width:200px;height: 200px"/>
 			<p><strong>Profession: </strong>Managing Director of Urban Web Development’s Albuquerque office, which is looking to hire a full time web developer. Urban Web Development opened its branch office in downtown Albuquerque 5 years ago and business has outgrown their current staffing levels with clients ranging from local businesses to large international web publications.</p>
 			<p><strong>Technology: </strong>Millicent is platform agnostic. She uses Mac, Linux, and Android user. She uses a 2017 13" MacBook Pro with 2 27” LG 5k displays while in the office, a Dell XPS laptop running Ubuntu 18.04 on a 3840 x 2160 display that is extended to a 34” 4k display in her home office, a 10.5” iPad Pro for browsing the web around the house, and her phone is a Pixel 2 XL with an unlimited LTE data connection.</p>
 			<p><strong>Attitudes and Behaviors: </strong> Millicent is very busy with a growing Albuquerque office and a family at home. She does not have much time to spend looking at portfolio sites before having her secretary set up interviews, therefore portfolio sites need to be professional, informative, and attention grabbing.</p>
