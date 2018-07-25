@@ -2,6 +2,8 @@
 Deep Dive PWP project
 
 # Jude
+
+# Milestone 1
 ## Specifications
 Great job on Milestone1, you met all the specifications laid out in the documentation. Your HTML is standards compliant.  The directory structure matches what was outlined. Finally, the content is straightforward and I am able to identify what you want to accomplish and who is your target audience.
 ## Site Feedback
