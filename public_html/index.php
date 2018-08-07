@@ -26,13 +26,13 @@
 			<div class="collapse navbar-collapse" id="navbarNavDropdown">
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item active">
-						<a class="nav-link" href="#homework">About Me<span class="sr-only">(current)</span></a>
+						<a class="nav-link" href="#aboutMe"sr-only">(current)</span></a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#reflections">Portfolio</a>
+						<a class="nav-link" href="#portfolio">Portfolio</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="https://www.linkedin.com/in/judeamiller/" target="_blank">Contact Me</a>
+						<a class="nav-link" href="#contact">Contact Me</a>
 					</li>
 									<li class="nav-item">
 						<a class="nav-link" href="Baca-Miller-Resume.pdf" target="_blank">Resume</a>
@@ -42,14 +42,16 @@
 			</nav>
 		</head>
 		<main>
-			<div class="container-fluid">
+			<div class="container-fluid p-5">
 				<h1 id="aboutMe">About Me</h1>
-				<p>
-					Delicious fettuccine penne tomatoes basil al dente ravioli al dente angel hair, carbonara rotelle lasagna lasagna. Cavatelli sorprese cheesy capellini carbonara, lasagna linguini al dente tripoline al dente penne cheesy basil delicious. Ravioli spaghetti tripoline basil carbonara tripoline pastina carbonara, tomatoes ravioli spaghettini sauce. Ziti pasta angel hair rotelle, cavatelli delicious spaghetti ditalini delicious macaroni ditalini. Sorprese spaghettini pasta cavatelli, sauce tomatoes basil basil rotelle ziti.</p>
+				<p>Delicious fettuccine penne tomatoes basil al dente ravioli al dente angel hair, carbonara rotelle lasagna lasagna. Cavatelli sorprese cheesy capellini carbonara, lasagna linguini al dente tripoline al dente penne cheesy basil delicious. Ravioli spaghetti tripoline basil carbonara tripoline pastina carbonara, tomatoes ravioli spaghettini sauce. Ziti pasta angel hair rotelle, cavatelli delicious spaghetti ditalini delicious macaroni ditalini. Sorprese spaghettini pasta cavatelli, sauce tomatoes basil basil rotelle ziti.</p>
 			</div>
-			<div class="container-fluid bg-secondary">
+			<div class="container-fluid p-5 bg-secondary">
 				<h1 id="portfolio">Portfolio</h1>
 
+			</div>
+			<div class="container-fluid p-5">
+				<h1 id="contact">Contact Me</h1>
 			</div>
 
 		</main>
