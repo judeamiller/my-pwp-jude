@@ -57,6 +57,11 @@
 		</main>
 		<!--Footer Section-->
 		<footer class="page-footer text-light">
+			<div class="row">
+				<div class="col-3">
+					<img src="/images/linkedinlogo.png" alt="linkedin logo"/>
+				</div>
+			</div>
 			<div class="text-center py-5">Jude's PWP FillerFooterText.</div>
 		</footer>
 	</body>
