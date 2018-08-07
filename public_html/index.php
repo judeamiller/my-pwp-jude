@@ -17,28 +17,30 @@
 		<title>Jude's Personal Website</title>
 	</head>
 	<body>
-		<nav class="navbar navbar-expand-lg navbar-light bg-secondary">
-		<a class="navbar-brand" href="#">Jude Baca-Miller <br>Web Developer</a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-		<div class="collapse navbar-collapse" id="navbarNavDropdown">
-			<ul class="navbar-nav ml-auto">
-				<li class="nav-item active">
-					<a class="nav-link" href="#homework">About Me<span class="sr-only">(current)</span></a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#reflections">Portfolio</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="https://www.linkedin.com/in/judeamiller/" target="_blank">Contact Me</a>
-				</li>
-								<li class="nav-item">
-					<a class="nav-link" href="Baca-Miller-Resume.pdf" target="_blank">Resume</a>
-				</li>
-			</ul>
-		</div>
-		</nav>
+		<head>
+			<nav class="navbar navbar-expand-lg navbar-light bg-secondary">
+			<a class="navbar-brand" href="#">Jude Baca-Miller <br>Web Developer</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNavDropdown">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="#homework">About Me<span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#reflections">Portfolio</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="https://www.linkedin.com/in/judeamiller/" target="_blank">Contact Me</a>
+					</li>
+									<li class="nav-item">
+						<a class="nav-link" href="Baca-Miller-Resume.pdf" target="_blank">Resume</a>
+					</li>
+				</ul>
+			</div>
+			</nav>
+		</head>
 		<main>
 
 		</main>
