@@ -26,7 +26,7 @@
 			<div class="collapse navbar-collapse" id="navbarNavDropdown">
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item active">
-						<a class="nav-link" href="#aboutMe"sr-only">(current)</span></a>
+						<a class="nav-link" href="#aboutMe">AboutMe<span class="sr-only">(current)</span></a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#portfolio">Portfolio</a>
@@ -55,5 +55,9 @@
 			</div>
 
 		</main>
+		<!--Footer Section-->
+		<footer class="page-footer text-light">
+			<div class="text-center py-5">Jude's PWP FillerFooterText.</div>
+		</footer>
 	</body>
 </html>
