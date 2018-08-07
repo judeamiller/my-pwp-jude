@@ -12,7 +12,7 @@
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js" integrity="sha384-pjaaA8dDz/5BgdFUPX6M/9SUZv4d12SUPF0axWc+VRZkx5xU3daN+lYb49+Ax+Tl" crossorigin="anonymous"></script>
 
 		<!--local stylesheet-->
-		<link rel="stylesheet" href="./css/style.css"/>
+		<link rel="stylesheet" href="public_html/css/style.css"/>
 
 		<title>Jude's Personal Website</title>
 	</head>
@@ -59,7 +59,7 @@
 		<footer class="page-footer text-light">
 			<div class="row">
 				<div class="col-3">
-					<img src="/images/linkedinlogo.png" alt="linkedin logo"/>
+					<img src="images/linkedinlogo.png" alt="linkedin logo"/>
 				</div>
 			</div>
 			<div class="text-center py-5">Jude's PWP FillerFooterText.</div>
