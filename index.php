@@ -78,23 +78,21 @@
 				</div>
 				<div class="container-fluid px-5 py-2">
 					<h1 class="p-3" id="contact">Contact Me</h1>
-					<div class="container">
-						<div class="col-md-5">
-							<div class="form-area">
-								<form>
-									<div class="form-group">
-										<input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
-									</div>
-									<div class="form-group">
-										<input type="text" class="form-control" id="email" name="name" placeholder="Email Address" required>
-									</div>
-									<div class="form-group">
-										<textarea class="form-control"  id="message" placeholder="Leave Me A Message" maxlength="250" rows="10"></textarea>
-									</div>
-								</form>
-								<button type="button" class="btn btn-success">Submit</button>
-								<button type="button" class="btn btn-danger">Reset</button>
-							</div>
+					<div class="col-md-5">
+						<div class="form-area">
+							<form>
+								<div class="form-group">
+									<input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
+								</div>
+								<div class="form-group">
+									<input type="text" class="form-control" id="email" name="name" placeholder="Email Address" required>
+								</div>
+								<div class="form-group">
+									<textarea class="form-control"  id="message" placeholder="Leave Me A Message" maxlength="250" rows="10"></textarea>
+								</div>
+							</form>
+							<button type="button" class="btn btn-success">Submit</button>
+							<button type="button" class="btn btn-danger">Reset</button>
 						</div>
 					</div>
 				</div>
