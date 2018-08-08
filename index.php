@@ -57,12 +57,10 @@
 		</main>
 		<!--Footer Section-->
 		<footer class="page-footer text-light">
-			<div class="row">
-				<div class="col-3">
-					<img src="images/linkedinlogo.png" alt="linkedin logo"/>
-				</div>
+			<div class="text-center pt-5">
+				<img src="images/resume-icon.png"alt="resume icon" width="50px"/><img src="images/linkedin-logo.png" alt="linkedin logo" width="50px"/> <img src="images/github-mark.png" alt="github logo" width="50px"/>
 			</div>
-			<div class="text-center py-5">Jude's PWP FillerFooterText.</div>
+			<div class=" text-center pb-5">Jude's PWP FillerFooterText.</div>
 		</footer>
 	</body>
 </html>
