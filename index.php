@@ -60,8 +60,8 @@
 						<h2 class="p-1">Beach</h2>
 					</div>
 					<div class="col-lg-3 col-sm-6">
-						<img src="https://picsum.photos/150/150" alt="photo" class="rounded-circle" width="230px" height="230px">
-						<h2 class="p-1">Feet</h2>
+						<img src="https://www.fillmurray.com/g/200/300" alt="photo" class="rounded-circle" width="230px" height="230px">
+						<h2 class="p-1">Bill</h2>
 					</div>
 					<div class="col-lg-3 col-sm-6">
 						<img src="https://picsum.photos/400/400" alt="photo" class="rounded-circle" width="230px" height="230px">
@@ -73,29 +73,28 @@
 						<a href="https://github.com/judeamiller" target="_blank"><img src="images/github-mark-dark.png" alt="github" class="px-1" height="70px"/></a>
 					</div>
 				</div>
-
-				<!--Contact Form-->
-				</div>
-				<div class="container-fluid px-5 py-2">
-					<h1 class="p-3" id="contact">Contact Me</h1>
-					<div class="col-md-5">
-						<div class="form-area">
-							<form>
-								<div class="form-group">
-									<input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
-								</div>
-								<div class="form-group">
-									<input type="text" class="form-control" id="email" name="name" placeholder="Email Address" required>
-								</div>
-								<div class="form-group">
-									<textarea class="form-control"  id="message" placeholder="Leave Me A Message" maxlength="250" rows="10"></textarea>
-								</div>
-							</form>
-							<button type="button" class="btn btn-success">Submit</button>
-							<button type="button" class="btn btn-danger">Reset</button>
-						</div>
+			</div>
+			<!--Contact Form-->
+			<div class="container-fluid px-5 py-2">
+				<h1 class="p-3" id="contact">Contact Me</h1>
+				<div class="col-md-5">
+					<div class="form-area">
+						<form>
+							<div class="form-group">
+								<input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
+							</div>
+							<div class="form-group">
+								<input type="text" class="form-control" id="email" name="name" placeholder="Email Address" required>
+							</div>
+							<div class="form-group">
+								<textarea class="form-control"  id="message" placeholder="Leave Me A Message" maxlength="250" rows="10"></textarea>
+							</div>
+						</form>
+						<button type="button" class="btn btn-success">Submit</button>
+						<button type="button" class="btn btn-danger">Reset</button>
 					</div>
 				</div>
+			</div>
 		</main>
 		<!--Footer Section-->
 		<footer class="page-footer text-light">
