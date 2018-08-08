@@ -67,10 +67,10 @@
 						<img src="https://picsum.photos/400/400" alt="photo" class="rounded-circle" width="230px" height="230px">
 						<h2 class="p-1">Lighthouse</h2>
 					</div>
-					<div class="col-lg-3 col-sm-6">
+					<div class="col-lg-3 col-sm-6 align-self-center">
 						<p class="text-center">Please check out my LinkedIn and GitHub Accounts</p>
-						<img src="images/linkedin-logo-dark.png" alt="linkedin"/>
-						<img src="images/github-mark-dark.png" alt="github"/>
+						<a href="https://www.linkedin.com/in/judeamiller/" target="_blank"><img src="images/linkedin-logo-dark.png" alt="linkedin" class="px-1" height="70px"/></a>
+						<a href="https://github.com/judeamiller" target="_blank"><img src="images/github-mark-dark.png" alt="github" class="px-1" height="70px"/></a>
 					</div>
 				</div>
 
@@ -105,9 +105,8 @@
 				<a href="images/Baca-Miller-Resume.pdf" target="_blank"><img src="images/resume-icon.png"alt="resume icon" class="px-2" width="50px"/></a>
 				<a href="https://github.com/judeamiller" target="_blank"><img src="images/github-mark-light.png" alt="github logo" class="px-2" width="50px"/></a>
 				<a href="https://www.linkedin.com/in/judeamiller/" target="_blank"><img src="images/linkedin-logo-light.png" alt="linkedin logo" class="px-2" width="50px"/></a>
-
 			</div>
-			<div class=" text-center pb-3">Jude's PWP FillerFooterText.</div>
+			<div class=" text-center pb-3">Jude Baca-Miller ©2018</div>
 		</footer>
 	</body>
 </html>
