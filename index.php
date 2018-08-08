@@ -38,7 +38,7 @@
 						<a class="nav-link" href="#contact">Contact Me</a>
 					</li>
 									<li class="nav-item">
-						<a class="nav-link" href="Baca-Miller-Resume.pdf" target="_blank">Resume</a>
+						<a class="nav-link" href="images/Baca-Miller-Resume.pdf" target="_blank">Resume</a>
 					</li>
 				</ul>
 			</div>
@@ -51,6 +51,21 @@
 			</div>
 			<div class="container-fluid p-5 bg-secondary">
 				<h1 id="portfolio">Portfolio</h1>
+				<div class="row">
+					<div class="col-md-3">
+						<img src="https://picsum.photos/200/300" alt="photo" class="rounded-circle" width="230px" height="230px">
+					</div>
+					<div class="col-md-3">
+						<img src="https://picsum.photos/150/150" alt="photo" class="rounded-circle" width="230px" height="230px">
+					</div>
+					<div class="col-md-3">
+						<img src="https://picsum.photos/400/400" alt="photo" class="rounded-circle" width="230px" height="230px">
+					</div>
+					<div class="col-md-3">
+						<p class="text-center">Please check out my LinkedIn and GitHub Accounts</p>
+						<img
+					</div>
+				</div>
 
 			</div>
 			<div class="container-fluid p-5">
