@@ -20,7 +20,7 @@
 		<title>Jude's Portfolio</title>
 	</head>
 	<body>
-		<head>
+		<header>
 			<nav class="navbar navbar-expand-lg navbar-light bg-secondary">
 				<a class="navbar-brand" href="#"><span class="myName"> Jude Baca-Miller</span> <br>Web Developer</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,15 +43,18 @@
 				</ul>
 			</div>
 			</nav>
-		</head>
+		</header>
 		<main>
+		<!--About Me-->
 			<div class="container-fluid p-5">
 				<h1 id="aboutMe">About Me</h1>
 				<p>Delicious fettuccine penne tomatoes basil al dente ravioli al dente angel hair, carbonara rotelle lasagna lasagna. Cavatelli sorprese cheesy capellini carbonara, lasagna linguini al dente tripoline al dente penne cheesy basil delicious. Ravioli spaghetti tripoline basil carbonara tripoline pastina carbonara, tomatoes ravioli spaghettini sauce. Ziti pasta angel hair rotelle, cavatelli delicious spaghetti ditalini delicious macaroni ditalini. Sorprese spaghettini pasta cavatelli, sauce tomatoes basil basil rotelle ziti.</p>
 			</div>
+
+			<!--Portfolio-->
 			<div class="container-fluid p-5 bg-secondary">
 				<h1 id="portfolio">Portfolio</h1>
-				<div class="row">
+				<div class="row text-center">
 					<div class="col-lg-3 col-sm-6">
 						<img src="https://picsum.photos/200/300" alt="photo" class="rounded-circle" width="230px" height="230px">
 						<h2 class="p-1">Beach</h2>
