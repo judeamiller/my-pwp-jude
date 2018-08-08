@@ -46,14 +46,14 @@
 		</header>
 		<main>
 		<!--About Me-->
-			<div class="container-fluid p-5">
-				<h1 id="aboutMe">About Me</h1>
+			<div class="container-fluid  px-5 py-2">
+				<h1 class="p-3" id="aboutMe">About Me</h1>
 				<p>Delicious fettuccine penne tomatoes basil al dente ravioli al dente angel hair, carbonara rotelle lasagna lasagna. Cavatelli sorprese cheesy capellini carbonara, lasagna linguini al dente tripoline al dente penne cheesy basil delicious. Ravioli spaghetti tripoline basil carbonara tripoline pastina carbonara, tomatoes ravioli spaghettini sauce. Ziti pasta angel hair rotelle, cavatelli delicious spaghetti ditalini delicious macaroni ditalini. Sorprese spaghettini pasta cavatelli, sauce tomatoes basil basil rotelle ziti.</p>
 			</div>
 
 			<!--Portfolio-->
-			<div class="container-fluid p-5 bg-secondary">
-				<h1 id="portfolio">Portfolio</h1>
+			<div class="container-fluid  px-5 py-2 bg-secondary">
+				<h1 class="p-3" id="portfolio">Portfolio</h1>
 				<div class="row text-center">
 					<div class="col-lg-3 col-sm-6">
 						<img src="https://picsum.photos/200/300" alt="photo" class="rounded-circle" width="230px" height="230px">
@@ -76,8 +76,8 @@
 
 				<!--Contact Form-->
 				</div>
-				<div class="container-fluid p-5">
-					<h1 id="contact">Contact Me</h1>
+				<div class="container-fluid px-5 py-2">
+					<h1 class="p-3" id="contact">Contact Me</h1>
 					<div class="container">
 						<div class="col-md-5">
 							<div class="form-area">
