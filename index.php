@@ -11,6 +11,9 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js" integrity="sha384-pjaaA8dDz/5BgdFUPX6M/9SUZv4d12SUPF0axWc+VRZkx5xU3daN+lYb49+Ax+Tl" crossorigin="anonymous"></script>
 
+		<!--	fonts	-->
+		<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+
 		<!--local stylesheet-->
 		<link rel="stylesheet" href="public_html/css/style.css"/>
 
@@ -19,7 +22,7 @@
 	<body>
 		<head>
 			<nav class="navbar navbar-expand-lg navbar-light bg-secondary">
-			<a class="navbar-brand" href="#">Jude Baca-Miller <br>Web Developer</a>
+				<a class="navbar-brand" href="#"><span class="myName"> Jude Baca-Miller</span> <br>Web Developer</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
