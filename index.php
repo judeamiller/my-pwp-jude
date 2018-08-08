@@ -95,17 +95,16 @@
 						</div>
 					</div>
 				</div>
-
-
-
-
 		</main>
 		<!--Footer Section-->
 		<footer class="page-footer text-light">
-			<div class="text-center pt-5">
-				<img src="images/resume-icon.png"alt="resume icon" width="50px"/><img src="images/linkedin-logo-light.png" alt="linkedin logo" width="50px"/> <img src="images/github-mark-light.png" alt="github logo" width="50px"/>
+			<div class="text-center pt-3">
+				<a href="images/Baca-Miller-Resume.pdf" target="_blank"><img src="images/resume-icon.png"alt="resume icon" class="px-2" width="50px"/></a>
+				<a href="https://github.com/judeamiller" target="_blank"><img src="images/github-mark-light.png" alt="github logo" class="px-2" width="50px"/></a>
+				<a href="https://www.linkedin.com/in/judeamiller/" target="_blank"><img src="images/linkedin-logo-light.png" alt="linkedin logo" class="px-2" width="50px"/></a>
+
 			</div>
-			<div class=" text-center pb-5">Jude's PWP FillerFooterText.</div>
+			<div class=" text-center pb-3">Jude's PWP FillerFooterText.</div>
 		</footer>
 	</body>
 </html>
