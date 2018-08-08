@@ -54,16 +54,20 @@
 				<div class="row">
 					<div class="col-md-3">
 						<img src="https://picsum.photos/200/300" alt="photo" class="rounded-circle" width="230px" height="230px">
+						<h2 class="p-1">Beach</h2>
 					</div>
 					<div class="col-md-3">
 						<img src="https://picsum.photos/150/150" alt="photo" class="rounded-circle" width="230px" height="230px">
+						<h2 class="p-1">Feet</h2>
 					</div>
 					<div class="col-md-3">
 						<img src="https://picsum.photos/400/400" alt="photo" class="rounded-circle" width="230px" height="230px">
+						<h2 class="p-1">Lighthouse</h2>
 					</div>
 					<div class="col-md-3">
 						<p class="text-center">Please check out my LinkedIn and GitHub Accounts</p>
-						<img
+						<img src="images/linkedin-logo-dark.png" alt="linkedin"/>
+						<img src="images/github-mark-dark.png" alt="github"/>
 					</div>
 				</div>
 
