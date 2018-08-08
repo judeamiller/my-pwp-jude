@@ -75,7 +75,7 @@
 				</div>
 			</div>
 			<!--Contact Form-->
-			<div class="container-fluid px-5 py-2">
+			<div class="container-fluid px-5 pt-2 pb-4">
 				<h1 class="p-3" id="contact">Contact Me</h1>
 				<div class="col-md-5">
 					<div class="form-area">
