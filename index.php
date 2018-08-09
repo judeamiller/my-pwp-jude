@@ -88,7 +88,7 @@
 			<!--Contact Form-->
 			<div class="container-fluid px-5 pt-2 pb-4">
 				<h1 class="p-3" id="contact">Contact Me</h1>
-				<div class="col-md-5">
+				<div class="col-md-6">
 					<div class="form-area">
 						<form>
 							<label class="sr-only">Name</label>
@@ -101,9 +101,22 @@
 							<div class="form-group">
 								<textarea class="form-control"  id="message" placeholder="Leave Me A Message" maxlength="250" rows="10"></textarea>
 							</div>
+
+							<!-- reCAPTCHA -->
+							<div class="g-recaptcha" data-sitekey="--YOUR RECAPTCHA SITE KEY--"></div>
+
+							<div class="pt-3">
+								<button class="btn btn-success mr-3" type="submit">Send</button>
+								<button class="btn btn-warning" type="reset">Reset</button>
+							</div>
 						</form>
-						<button type="button" class="btn btn-success">Submit</button>
-						<button type="button" class="btn btn-danger">Reset</button>
+
+						<!--empty area for form error/success output-->
+						<div class="row">
+							<div class="col-xs-12">
+								<div id="output-area"></div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
