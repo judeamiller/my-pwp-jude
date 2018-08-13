@@ -16,6 +16,10 @@
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
 
+		<!--fancybox-->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css" />
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
+
 		<!-- Your JavaScript Form Validator -->
 		<script src="js/form-validate.js"></script>
 
@@ -67,15 +71,21 @@
 				<h1 class="p-3" id="portfolio">Portfolio</h1>
 				<div class="row text-center">
 					<div class="col-lg-3 col-sm-6">
-						<img src="https://picsum.photos/200/300" alt="photo" class="rounded-circle" width="230px" height="230px">
+						<a href="https://picsum.photos/200/300" data-fancybox data-caption="this is a picture of a beach">
+							<img src="https://picsum.photos/200/300" alt="photo" class="rounded-circle" width="230px" height="230px">
+						</a>
 						<h2 class="p-1">Beach</h2>
 					</div>
 					<div class="col-lg-3 col-sm-6">
-						<img src="https://www.fillmurray.com/g/200/300" alt="photo" class="rounded-circle" width="230px" height="230px">
+						<a href="https://www.fillmurray.com/g/200/300" data-fancybox data-caption="meet bill">
+							<img src="https://www.fillmurray.com/g/200/300" alt="photo" class="rounded-circle" width="230px" height="230px">
+						</a>
 						<h2 class="p-1">Bill</h2>
 					</div>
 					<div class="col-lg-3 col-sm-6">
-						<img src="https://picsum.photos/400/400" alt="photo" class="rounded-circle" width="230px" height="230px">
+						<a href="https://picsum.photos/400/400" data-fancybox data-caption="This is a picture of a lightouse. I built this lighthouse myself.">
+							<img src="https://picsum.photos/400/400" alt="photo" class="rounded-circle" width="230px" height="230px">
+						</a>
 						<h2 class="p-1">Lighthouse</h2>
 					</div>
 					<div class="col-lg-3 col-sm-6 align-self-center">
