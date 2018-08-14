@@ -36,11 +36,12 @@
 	</head>
 	<body>
 		<header>
-			<nav class="navbar navbar-expand-lg navbar-light border-bottom border-secondary shadow-sm topbar">
+			<nav class="navbar navbar-expand-lg navbar-light border-bottom border-secondary shadow-sm navbar-color">
 				<a class="navbar-brand" href="#"><span class="myName"> Jude Baca-Miller</span> <br>Web Developer</a>
-
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
+				<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="icon-bar top-bar"></span>
+					<span class="icon-bar middle-bar"></span>
+					<span class="icon-bar bottom-bar"></span>
 				</button>
 				<div class="collapse navbar-collapse" id="navbarNavDropdown">
 					<ul class="navbar-nav ml-auto">
@@ -139,7 +140,7 @@
 				<a href="https://github.com/judeamiller" target="_blank"><img src="images/github-mark-light.png" alt="github logo" class="px-2" width="50px"/></a>
 				<a href="https://www.linkedin.com/in/judeamiller/" target="_blank"><img src="images/linkedin-logo-light.png" alt="linkedin logo" class="px-2" width="50px"/></a>
 			</div>
-			<div class=" text-center pb-3">Jude Baca-Miller ©2018</div>
+			<div class=" text-center pt-2 pb-3">Jude Baca-Miller ©2018</div>
 		</footer>
 	</body>
 </html>
