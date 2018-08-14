@@ -25,13 +25,12 @@ h1 {
 
 .page-footer {
 	background-color: black;
+	font-size: 0.7em;
 }
 
 .navbar-color {
 	background: linear-gradient(rgba(123,124,124,1) 0%, rgba(163,164,164,1) 100%, rgba(218,218,218,1) 100%);
 }
-
-
 
 /*custom navbar toggler*/
 .icon-bar {
