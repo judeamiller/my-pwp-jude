@@ -32,3 +32,17 @@ h1 {
 }
 
 
+
+.icon-bar {
+	width: 28px;
+	height: 3px;
+	background-color: #5b5b5b;
+	display: block;
+	transition: all 0.2s;
+	margin-top: 5px
+}
+
+.navbar-toggler {
+	border: none;
+	background: transparent !important;
+}
