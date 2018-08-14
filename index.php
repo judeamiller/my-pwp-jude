@@ -36,27 +36,28 @@
 	</head>
 	<body>
 		<header>
-			<nav class="navbar navbar-expand-lg navbar-light bg-secondary border-bottom border-dark shadow-lg">
+			<nav class="navbar navbar-expand-lg navbar-light border-bottom border-secondary shadow-sm topbar">
 				<a class="navbar-brand" href="#"><span class="myName"> Jude Baca-Miller</span> <br>Web Developer</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse" id="navbarNavDropdown">
-				<ul class="navbar-nav ml-auto">
-					<li class="nav-item active">
-						<a class="nav-link" href="#aboutMe">AboutMe<span class="sr-only">(current)</span></a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#portfolio">Portfolio</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#contact">Contact Me</a>
-					</li>
-									<li class="nav-item">
-						<a class="nav-link" href="images/Baca-Miller-Resume.pdf" target="_blank">Resume</a>
-					</li>
-				</ul>
-			</div>
+
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNavDropdown">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item active">
+							<a class="nav-link" href="#aboutMe">AboutMe<span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#portfolio">Portfolio</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#contact">Contact Me</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="images/Baca-Miller-Resume.pdf" target="_blank">Resume</a>
+						</li>
+					</ul>
+				</div>
 			</nav>
 		</header>
 		<main>
