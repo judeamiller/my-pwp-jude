@@ -33,10 +33,11 @@ h1 {
 
 
 
+/*custom navbar toggler*/
 .icon-bar {
 	width: 28px;
 	height: 3px;
-	background-color: #5b5b5b;
+	background-color: #4d4d4d;
 	display: block;
 	transition: all 0.2s;
 	margin-top: 5px
@@ -45,4 +46,31 @@ h1 {
 .navbar-toggler {
 	border: none;
 	background: transparent !important;
+}
+
+/*navbar toggler animation*/
+.navbar-toggler .top-bar {
+	transform: rotate(45deg);
+	transform-origin: 10% 10%;
+}
+
+.navbar-toggler .middle-bar {
+	opacity: 0;
+}
+
+.navbar-toggler .bottom-bar {
+	transform: rotate(-45deg);
+	transform-origin: 10% 90%;
+}
+
+.navbar-toggler.collapsed .top-bar {
+	transform: rotate(0);
+}
+
+.navbar-toggler.collapsed .middle-bar {
+	opacity: 1;
+}
+
+.navbar-toggler.collapsed .bottom-bar {
+	transform: rotate(0);
 }
