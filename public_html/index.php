@@ -72,25 +72,24 @@
 		</header>
 		<main>
 		<!--About Me-->
-			<div class="container-fluid  pt-5 px-5">
+			<div class="container-fluid  pt-3">
 				<h1 class="p-3" id="aboutMe">About Me</h1>
 			</div>
-			<div class = "container pb- 5 px-5 pb-5">
+			<div class = "container px-5 pb-5">
 				<div class="row">
-					<div class="col-lg-8 align-self-center">
+					<div class="col-md-8 align-self-center">
 						<p>Delicious fettuccine penne tomatoes basil al dente ravioli al dente angel hair, carbonara rotelle lasagna lasagna. Cavatelli sorprese cheesy capellini carbonara, lasagna linguini al dente tripoline al dente penne cheesy basil delicious. Ravioli spaghetti tripoline basil carbonara tripoline pastina carbonara, tomatoes ravioli spaghettini sauce. Ziti pasta angel hair rotelle, cavatelli delicious spaghetti ditalini delicious macaroni ditalini. Sorprese spaghettini pasta cavatelli, sauce tomatoes basil basil rotelle ziti.</p>
 					</div>
-					<div class="col-lg-4 text-center">
+					<div class="col-md-4 align-self-center text-center">
 						<img src="https://www.fillmurray.com/g/400/300" alt="photo" class="rounded">
 					</div>
 				</div>
 			</div>
-
 			<!--Portfolio-->
 			<div class="container-fluid  p-5 portfolio-section">
 				<h1 class="pb-4" id="portfolio">Portfolio</h1>
 				<div class="row text-center">
-					<div class="col-lg-3 col-sm-6">
+					<div class="col-lg-3 col-xs-6">
 						<a href="https://picsum.photos/200/300" data-fancybox="gallery" data-caption="Caption #1">
 							<img src="https://picsum.photos/200/300" alt="bla" class="rounded-circle"/>
 						</a>
@@ -99,7 +98,7 @@
 						<a href="documentation/images/desktopscrolldown.png" data-fancybox="gallery" data-caption="Caption #4"></a>
 						<h2 class="p-1">Beach</h2>
 					</div>
-					<div class="col-lg-3 col-sm-6">
+					<div class="col-lg-3 col-xs-6">
 						<a href="https://www.fillmurray.com/g/200/300" data-fancybox data-caption="meet bill">
 							<img src="https://www.fillmurray.com/g/200/300" alt="photo" class="rounded-circle">
 						</a>
