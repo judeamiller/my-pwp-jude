@@ -36,8 +36,8 @@
 	</head>
 	<body>
 		<header>
-			<nav class="navbar navbar-expand-lg navbar-light border-bottom border-secondary shadow-sm navbar-color">
-				<a class="navbar-brand" href="#"><span class="myName"> Jude Baca-Miller</span> <br>Web Developer</a>
+			<nav class="navbar navbar-expand-lg navbar-light border-bottom border-secondary shadow-sm">
+				<a class="navbar-brand text-secondary" href="#"><span class="myName"> Jude Baca-Miller</span> <br>Web Developer</a>
 				<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="icon-bar top-bar"></span>
 					<span class="icon-bar middle-bar"></span>
@@ -65,28 +65,37 @@
 		<!--About Me-->
 			<div class="container-fluid  px-5 py-2">
 				<h1 class="p-3" id="aboutMe">About Me</h1>
-				<p>Delicious fettuccine penne tomatoes basil al dente ravioli al dente angel hair, carbonara rotelle lasagna lasagna. Cavatelli sorprese cheesy capellini carbonara, lasagna linguini al dente tripoline al dente penne cheesy basil delicious. Ravioli spaghetti tripoline basil carbonara tripoline pastina carbonara, tomatoes ravioli spaghettini sauce. Ziti pasta angel hair rotelle, cavatelli delicious spaghetti ditalini delicious macaroni ditalini. Sorprese spaghettini pasta cavatelli, sauce tomatoes basil basil rotelle ziti.</p>
+			</div>
+			<div class = "container pb-5">
+				<div class="row">
+					<div class="col-8">
+						<p>Delicious fettuccine penne tomatoes basil al dente ravioli al dente angel hair, carbonara rotelle lasagna lasagna. Cavatelli sorprese cheesy capellini carbonara, lasagna linguini al dente tripoline al dente penne cheesy basil delicious. Ravioli spaghetti tripoline basil carbonara tripoline pastina carbonara, tomatoes ravioli spaghettini sauce. Ziti pasta angel hair rotelle, cavatelli delicious spaghetti ditalini delicious macaroni ditalini. Sorprese spaghettini pasta cavatelli, sauce tomatoes basil basil rotelle ziti.</p>
+					</div>
+					<div class="col-4">
+						<img src="https://www.fillmurray.com/g/200/300" alt="photo" class="rounded-circle">
+					</div>
+				</div>
 			</div>
 
 			<!--Portfolio-->
-			<div class="container-fluid  px-5 py-2 bg-secondary">
+			<div class="container-fluid  px-5 py-2 portfolio-section">
 				<h1 class="p-3" id="portfolio">Portfolio</h1>
 				<div class="row text-center">
 					<div class="col-lg-3 col-sm-6">
 						<a href="https://picsum.photos/200/300" data-fancybox data-caption="this is a picture of a beach">
-							<img src="https://picsum.photos/200/300" alt="photo" class="rounded-circle" width="230px" height="230px">
+							<img src="https://picsum.photos/200/300" alt="photo" class="rounded-circle">
 						</a>
 						<h2 class="p-1">Beach</h2>
 					</div>
 					<div class="col-lg-3 col-sm-6">
 						<a href="https://www.fillmurray.com/g/200/300" data-fancybox data-caption="meet bill">
-							<img src="https://www.fillmurray.com/g/200/300" alt="photo" class="rounded-circle" width="230px" height="230px">
+							<img src="https://www.fillmurray.com/g/200/300" alt="photo" class="rounded-circle">
 						</a>
 						<h2 class="p-1">Bill</h2>
 					</div>
 					<div class="col-lg-3 col-sm-6">
 						<a href="https://picsum.photos/400/400" data-fancybox data-caption="This is a picture of a lightouse. I built this lighthouse myself.">
-							<img src="https://picsum.photos/400/400" alt="photo" class="rounded-circle" width="230px" height="230px">
+							<img src="https://picsum.photos/400/400" alt="photo" class="rounded-circle">
 						</a>
 						<h2 class="p-1">Lighthouse</h2>
 					</div>
