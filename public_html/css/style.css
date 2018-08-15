@@ -1,49 +1,13 @@
+/*global*/
 body {
 	font-family: 'Open Sans', sans-serif;
 
 }
-
-.btn-warning {
-	background-color: #f0ac49;
-	border-color: #ee9a32;
-	width: 5em;
-}
-
-.btn-success {
-	color: black;
-	width: 5em;
-
-}
-
-
-.myName {
-	font-weight: 100;
-	font-size: 1.5em;
-	color: black;
-}
-
 h1 {
 	font-weight: 100;
 }
 
-.page-footer {
-	background-color: black;
-	font-size: 0.7em;
-}
-
-.portfolio-section{
-	background-color: #D3D8DE;
-}
-
-.navbar-color {
-	background: #5D7F7F;
-}
-
-.rounded-circle {
-	height: 230px;
-	width: 230px;
-}
-
+/*navbar*/
 /*custom navbar toggler*/
 .icon-bar {
 	width: 1.5em;
@@ -89,3 +53,54 @@ h1 {
 .navbar-toggler.collapsed .bottom-bar {
 	transform: rotate(0);
 }
+
+
+/*portfolio dependent*/
+.portfolio-section{
+	background-color: #D3D8DE;
+}
+
+.logo {
+	height: 70px;
+}
+
+.fancybox-hidden {
+	display: none;
+}
+
+.myName {
+	font-weight: 100;
+	font-size: 1.5em;
+	color: black;
+}
+
+.rounded-circle {
+	height: 230px;
+	width: 230px;
+}
+
+
+/*contact form*/
+.btn-warning {
+	background-color: #f0ac49;
+	border-color: #ee9a32;
+	width: 5em;
+}
+
+.btn-success {
+	color: black;
+	width: 5em;
+
+}
+
+/*footer*/
+.page-footer {
+	background-color: black;
+	font-size: 0.7em;
+}
+
+
+
+
+
+
