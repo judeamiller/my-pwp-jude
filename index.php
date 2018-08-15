@@ -48,11 +48,20 @@
 						<li class="nav-item active">
 							<a class="nav-link" href="#aboutMe">AboutMe<span class="sr-only">(current)</span></a>
 						</li>
+						<li class="nav-item d-none d-lg-block">
+							<p class="nav-link text-muted">|</p>
+						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="#portfolio">Portfolio</a>
 						</li>
+						<li class="nav-item d-none d-lg-block">
+							<p class="nav-link text-muted">|</p>
+						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="#contact">Contact Me</a>
+						</li>
+						<li class="nav-item d-none d-lg-block">
+							<p class="nav-link text-muted">|</p>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="images/Baca-Miller-Resume.pdf" target="_blank">Resume</a>
