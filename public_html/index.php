@@ -30,13 +30,13 @@
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
 		<!--local stylesheet-->
-		<link rel="stylesheet" href="public_html/css/style.css"/>
+		<link rel="stylesheet" href="css/style.css"/>
 
 		<title>Jude's Portfolio</title>
 	</head>
 	<body>
 		<header>
-			<nav class="navbar navbar-expand-lg navbar-light border-bottom border-secondary shadow-sm">
+			<nav class="navbar navbar-expand-lg navbar-light border-bottom border-secondary shadow-sm bg-light">
 				<a class="navbar-brand text-secondary" href="#"><span class="myName"> Jude Baca-Miller</span> <br>Web Developer</a>
 				<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="icon-bar top-bar"></span>
@@ -72,22 +72,22 @@
 		</header>
 		<main>
 		<!--About Me-->
-			<div class="container-fluid  px-5 py-2">
+			<div class="container-fluid  pt-5 px-5">
 				<h1 class="p-3" id="aboutMe">About Me</h1>
 			</div>
-			<div class = "container pb-5">
+			<div class = "container pb- 5 px-5 pb-5">
 				<div class="row">
-					<div class="col-lg-8">
+					<div class="col-lg-8 align-self-center">
 						<p>Delicious fettuccine penne tomatoes basil al dente ravioli al dente angel hair, carbonara rotelle lasagna lasagna. Cavatelli sorprese cheesy capellini carbonara, lasagna linguini al dente tripoline al dente penne cheesy basil delicious. Ravioli spaghetti tripoline basil carbonara tripoline pastina carbonara, tomatoes ravioli spaghettini sauce. Ziti pasta angel hair rotelle, cavatelli delicious spaghetti ditalini delicious macaroni ditalini. Sorprese spaghettini pasta cavatelli, sauce tomatoes basil basil rotelle ziti.</p>
 					</div>
 					<div class="col-lg-4 text-center">
-						<img src="https://www.fillmurray.com/g/200/300" alt="photo" class="rounded-circle">
+						<img src="https://www.fillmurray.com/g/200/300" alt="photo" class="rounded">
 					</div>
 				</div>
 			</div>
 
 			<!--Portfolio-->
-			<div class="container-fluid  px-5 py-2 portfolio-section">
+			<div class="container-fluid  p-5 portfolio-section">
 				<h1 class="p-3" id="portfolio">Portfolio</h1>
 				<div class="row text-center">
 					<div class="col-lg-3 col-sm-6">
@@ -110,14 +110,14 @@
 					</div>
 					<div class="col-lg-3 col-sm-6 align-self-center">
 						<p class="text-center">Please check out my LinkedIn and GitHub Accounts</p>
-						<a href="https://www.linkedin.com/in/judeamiller/" target="_blank"><img src="images/linkedin-logo-dark.png" alt="linkedin" class="px-1" height="70px"/></a>
 						<a href="https://github.com/judeamiller" target="_blank"><img src="images/github-mark-dark.png" alt="github" class="px-1" height="70px"/></a>
+						<a href="https://www.linkedin.com/in/judeamiller/" target="_blank"><img src="images/linkedin-logo-dark.png" alt="linkedin" class="px-1" height="70px"/></a>
 					</div>
 				</div>
 			</div>
 			<!--Contact Form-->
-			<div class="container-fluid px-5 pt-2 pb-4">
-				<h1 class="p-3" id="contact">Contact Me</h1>
+			<div class="container-fluid p-5">
+				<h1 class="pb-5" id="contact">Contact Me</h1>
 				<div class="col-md-6">
 					<div class="form-area">
 						<form>
@@ -154,7 +154,7 @@
 		<!--Footer Section-->
 		<footer class="page-footer text-light">
 			<div class="text-center pt-3">
-				<a href="images/Baca-Miller-Resume.pdf" target="_blank"><img src="images/resume-icon.png"alt="resume icon" class="px-2" width="50px"/></a>
+				<a href="images/Baca-Miller-Resume.pdf" target="_blank"><img src="images/resume-icon.png" alt="resume icon" class="px-2" width="50px"/></a>
 				<a href="https://github.com/judeamiller" target="_blank"><img src="images/github-mark-light.png" alt="github logo" class="px-2" width="50px"/></a>
 				<a href="https://www.linkedin.com/in/judeamiller/" target="_blank"><img src="images/linkedin-logo-light.png" alt="linkedin logo" class="px-2" width="50px"/></a>
 			</div>
