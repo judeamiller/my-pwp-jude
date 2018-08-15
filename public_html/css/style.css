@@ -1,8 +1,8 @@
 /*global*/
 body {
 	font-family: 'Open Sans', sans-serif;
-
 }
+
 h1 {
 	font-weight: 100;
 }
@@ -44,6 +44,11 @@ h1 {
 }
 .navbar-toggler.collapsed .bottom-bar {
 	transform: rotate(0);
+}
+
+/*about me section*/
+.rounded{
+	max-width: 70%;
 }
 
 /*portfolio dependent*/
