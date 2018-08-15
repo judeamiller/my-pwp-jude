@@ -88,7 +88,7 @@
 
 			<!--Portfolio-->
 			<div class="container-fluid  p-5 portfolio-section">
-				<h1 class="p-3" id="portfolio">Portfolio</h1>
+				<h1 class="pb-4" id="portfolio">Portfolio</h1>
 				<div class="row text-center">
 					<div class="col-lg-3 col-sm-6">
 						<a href="https://picsum.photos/200/300" data-fancybox data-caption="this is a picture of a beach">
@@ -103,7 +103,7 @@
 						<h2 class="p-1">Bill</h2>
 					</div>
 					<div class="col-lg-3 col-sm-6">
-						<a href="https://picsum.photos/400/400" data-fancybox data-caption="This is a picture of a lightouse. I built this lighthouse myself.">
+						<a href="https://picsum.photos/400/400" data-fancybox data-caption="This is a picture of a lighthouse. I built this lighthouse myself.">
 							<img src="https://picsum.photos/400/400" alt="photo" class="rounded-circle">
 						</a>
 						<h2 class="p-1">Lighthouse</h2>
