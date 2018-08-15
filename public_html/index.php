@@ -125,9 +125,11 @@
 							<div class="form-group">
 								<input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
 							</div>
+							<label class="sr-only">Email</label>
 							<div class="form-group">
-								<input type="text" class="form-control" id="email" name="name" placeholder="Email Address" required>
+								<input type="text" class="form-control" id="email" name="email" placeholder="Email Address" required>
 							</div>
+							<label class="sr-only">Message</label>
 							<div class="form-group">
 								<textarea class="form-control"  id="message" placeholder="Leave Me A Message" maxlength="250" rows="10"></textarea>
 							</div>
