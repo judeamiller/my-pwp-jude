@@ -108,7 +108,7 @@
 						</a>
 						<h2 class="p-1">Lighthouse</h2>
 					</div>
-					<div class="col-lg-3 col-sm-6 align-self-center">
+					<div class="col-lg-3 col-sm-6 align-self-center pb-5">
 						<p class="text-center">Please check out my LinkedIn and GitHub Accounts</p>
 						<a href="https://github.com/judeamiller" target="_blank"><img src="images/github-mark-dark.png" alt="github" class="px-1" height="70px"/></a>
 						<a href="https://www.linkedin.com/in/judeamiller/" target="_blank"><img src="images/linkedin-logo-dark.png" alt="linkedin" class="px-1" height="70px"/></a>
