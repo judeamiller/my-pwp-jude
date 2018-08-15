@@ -68,10 +68,10 @@
 			</div>
 			<div class = "container pb-5">
 				<div class="row">
-					<div class="col-8">
+					<div class="col-lg-8">
 						<p>Delicious fettuccine penne tomatoes basil al dente ravioli al dente angel hair, carbonara rotelle lasagna lasagna. Cavatelli sorprese cheesy capellini carbonara, lasagna linguini al dente tripoline al dente penne cheesy basil delicious. Ravioli spaghetti tripoline basil carbonara tripoline pastina carbonara, tomatoes ravioli spaghettini sauce. Ziti pasta angel hair rotelle, cavatelli delicious spaghetti ditalini delicious macaroni ditalini. Sorprese spaghettini pasta cavatelli, sauce tomatoes basil basil rotelle ziti.</p>
 					</div>
-					<div class="col-4">
+					<div class="col-lg-4 text-center">
 						<img src="https://www.fillmurray.com/g/200/300" alt="photo" class="rounded-circle">
 					</div>
 				</div>
