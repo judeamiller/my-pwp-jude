@@ -89,7 +89,7 @@
 			<div class="container-fluid  p-5 portfolio-section">
 				<h1 class="pb-4" id="portfolio">Portfolio</h1>
 				<div class="row text-center">
-					<div class="col-lg-3 col-xs-6">
+					<div class="col-lg-3 col-sm-6">
 						<a href="https://picsum.photos/200/300" data-fancybox="gallery" data-caption="Caption #1">
 							<img src="https://picsum.photos/200/300" alt="bla" class="rounded-circle"/>
 						</a>
@@ -98,7 +98,7 @@
 						<a href="documentation/images/desktopscrolldown.png" data-fancybox="gallery" data-caption="Caption #4"></a>
 						<h2 class="p-1">Beach</h2>
 					</div>
-					<div class="col-lg-3 col-xs-6">
+					<div class="col-lg-3 col-sm-6">
 						<a href="https://www.fillmurray.com/g/200/300" data-fancybox data-caption="meet bill">
 							<img src="https://www.fillmurray.com/g/200/300" alt="photo" class="rounded-circle">
 						</a>
