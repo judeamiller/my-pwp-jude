@@ -1,5 +1,6 @@
 body {
 	font-family: 'Open Sans', sans-serif;
+
 }
 
 .btn-warning {
@@ -14,9 +15,11 @@ body {
 
 }
 
+
 .myName {
 	font-weight: 100;
 	font-size: 1.5em;
+	color: black;
 }
 
 h1 {
@@ -28,8 +31,17 @@ h1 {
 	font-size: 0.7em;
 }
 
+.portfolio-section{
+	background-color: #D3D8DE;
+}
+
 .navbar-color {
-	background: linear-gradient(rgba(123,124,124,1) 0%, rgba(163,164,164,1) 100%, rgba(218,218,218,1) 100%);
+	background: #5D7F7F;
+}
+
+.rounded-circle {
+	height: 230px;
+	width: 230px;
 }
 
 /*custom navbar toggler*/
