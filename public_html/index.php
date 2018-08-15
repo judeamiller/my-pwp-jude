@@ -81,7 +81,7 @@
 						<p>Delicious fettuccine penne tomatoes basil al dente ravioli al dente angel hair, carbonara rotelle lasagna lasagna. Cavatelli sorprese cheesy capellini carbonara, lasagna linguini al dente tripoline al dente penne cheesy basil delicious. Ravioli spaghetti tripoline basil carbonara tripoline pastina carbonara, tomatoes ravioli spaghettini sauce. Ziti pasta angel hair rotelle, cavatelli delicious spaghetti ditalini delicious macaroni ditalini. Sorprese spaghettini pasta cavatelli, sauce tomatoes basil basil rotelle ziti.</p>
 					</div>
 					<div class="col-lg-4 text-center">
-						<img src="https://www.fillmurray.com/g/200/300" alt="photo" class="rounded">
+						<img src="https://www.fillmurray.com/g/400/300" alt="photo" class="rounded">
 					</div>
 				</div>
 			</div>
@@ -91,9 +91,12 @@
 				<h1 class="pb-4" id="portfolio">Portfolio</h1>
 				<div class="row text-center">
 					<div class="col-lg-3 col-sm-6">
-						<a href="https://picsum.photos/200/300" data-fancybox data-caption="this is a picture of a beach">
-							<img src="https://picsum.photos/200/300" alt="photo" class="rounded-circle">
+						<a href="https://picsum.photos/200/300" data-fancybox="gallery" data-caption="Caption #1">
+							<img src="https://picsum.photos/200/300" alt="bla" class="rounded-circle"/>
 						</a>
+						<a href="documentation/images/mobilesite.png" data-fancybox="gallery" data-caption="Caption #2"></a>
+						<a href="documentation/images/desktopgallery.png" data-fancybox="gallery" data-caption="Caption #3"></a>
+						<a href="documentation/images/desktopscrolldown.png" data-fancybox="gallery" data-caption="Caption #4"></a>
 						<h2 class="p-1">Beach</h2>
 					</div>
 					<div class="col-lg-3 col-sm-6">
@@ -128,6 +131,10 @@
 							<label class="sr-only">Email</label>
 							<div class="form-group">
 								<input type="text" class="form-control" id="email" name="email" placeholder="Email Address" required>
+							</div>
+							<label class="sr-only">Subject</label>
+							<div class="form-group">
+								<input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
 							</div>
 							<label class="sr-only">Message</label>
 							<div class="form-group">
