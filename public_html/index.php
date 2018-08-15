@@ -162,9 +162,9 @@
 		<!--Footer Section-->
 		<footer class="page-footer text-light">
 			<div class="text-center pt-3">
-				<a href="images/Baca-Miller-Resume.pdf" target="_blank"><img src="images/resume-icon.png" alt="resume icon" class="px-2" width="50px"/></a>
-				<a href="https://github.com/judeamiller" target="_blank"><img src="images/github-mark-light.png" alt="github logo" class="px-2" width="50px"/></a>
-				<a href="https://www.linkedin.com/in/judeamiller/" target="_blank"><img src="images/linkedin-logo-light.png" alt="linkedin logo" class="px-2" width="50px"/></a>
+				<a href="images/Baca-Miller-Resume.pdf" target="_blank"><img src="images/resume-icon.png" alt="resume icon" class="px-2 footer-icon"/></a>
+				<a href="https://github.com/judeamiller" target="_blank"><img src="images/github-mark-light.png" alt="github logo" class="px-2 footer-icon"/></a>
+				<a href="https://www.linkedin.com/in/judeamiller/" target="_blank"><img src="images/linkedin-logo-light.png" alt="linkedin logo" class="px-2 footer-icon"/></a>
 			</div>
 			<div class=" text-center pt-2 pb-3">Jude Baca-Miller ©2018</div>
 		</footer>
