@@ -124,6 +124,7 @@
 				<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
 					<div class="modal-content">
 						<div class="modal-body">
+							<a href="#" role="button" data-dismiss="modal" class="btn btn-secondary mb-3">x</a>
 							<div class="carousel slide" data-ride="carousel" tabindex="-1" id="carousel">
 								<ol class="carousel-indicators">
 									<li data-target="#carousel" data-slide-to="0" class="pointer active"></li>
@@ -142,7 +143,7 @@
 										<img class="d-block w-100" src="http://www.miata93le.com/DSC_3930.JPG">
 									</div>
 									<div class="carousel-item">
-										<img class="d-block w-100" src="documentation/images/mpowers.jpg">
+										<img class="d-block w-100" src="http://www.miata93le.com/DSC_3928.JPG">
 									</div>
 								</div>
 								<a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
@@ -156,8 +157,7 @@
 							</div>
 						</div>
 						<div class="modal-footer px-3 py-3 pt-0">
-							<p class="modal-title mr-auto">This was a project. I make the best projects. Look at these projects.</p>
-							<a href="#" role="button" data-dismiss="modal" class="btn btn-secondary px-3">Close</a>
+							<p class="modal-title text-light mr-auto">This was a project. I make the best projects. Look at these projects.</p>
 						</div>
 					</div>
 				</div>
