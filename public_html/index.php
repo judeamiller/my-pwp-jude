@@ -36,7 +36,7 @@
 	</head>
 	<body>
 		<header>
-			<nav class="navbar navbar-expand-lg navbar-light border-bottom border-secondary shadow-sm bg-light">
+			<nav class="navbar navbar-expand-lg navbar-light border-bottom border-secondary shadow-sm bg-light" >
 				<a class="navbar-brand text-secondary" href="#"><span class="myName"> Jude Baca-Miller</span> <br>Web Developer</a>
 				<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="icon-bar top-bar"></span>
@@ -45,7 +45,7 @@
 				</button>
 				<div class="collapse navbar-collapse" id="navbarNavDropdown">
 					<ul class="navbar-nav ml-auto">
-						<li class="nav-item active">
+						<li class="nav-item">
 							<a class="nav-link" href="#aboutMe">AboutMe<span class="sr-only">(current)</span></a>
 						</li>
 						<li class="nav-item d-none d-lg-block">
@@ -72,12 +72,10 @@
 		</header>
 		<main>
 		<!--About Me-->
-			<div class="container-fluid  pt-3">
-				<h1 class="p-3" id="aboutMe">About Me</h1>
-			</div>
-			<div class = "container px-5 pb-5">
+			<div class="container-fluid  p-5">
 				<div class="row">
 					<div class="col-md-8 align-self-center">
+						<h1 class="pb-3" id="aboutMe">About Me</h1>
 						<p>Delicious fettuccine penne tomatoes basil al dente ravioli al dente angel hair, carbonara rotelle lasagna lasagna. Cavatelli sorprese cheesy capellini carbonara, lasagna linguini al dente tripoline al dente penne cheesy basil delicious. Ravioli spaghetti tripoline basil carbonara tripoline pastina carbonara, tomatoes ravioli spaghettini sauce. Ziti pasta angel hair rotelle, cavatelli delicious spaghetti ditalini delicious macaroni ditalini. Sorprese spaghettini pasta cavatelli, sauce tomatoes basil basil rotelle ziti.</p>
 					</div>
 					<div class="col-md-4 align-self-center text-center">
@@ -99,9 +97,12 @@
 						<h2 class="p-1">Beach</h2>
 					</div>
 					<div class="col-lg-3 col-sm-6">
-						<a href="https://www.fillmurray.com/g/200/300" data-fancybox data-caption="meet bill">
-							<img src="https://www.fillmurray.com/g/200/300" alt="photo" class="rounded-circle">
-						</a>
+<!--						<a href="https://www.fillmurray.com/g/200/300" data-fancybox data-caption="meet bill">-->
+<!--							<img src="https://www.fillmurray.com/g/200/300" alt="photo" class="rounded-circle">-->
+<!--						</a>-->
+
+						<a href="#lightbox"  data-toggle="modal" data-slide-to="1"><img src="https://www.fillmurray.com/g/200/300" alt="" class="rounded-circle"/></a>
+
 						<h2 class="p-1">Bill</h2>
 					</div>
 					<div class="col-lg-3 col-sm-6">
@@ -112,8 +113,47 @@
 					</div>
 					<div class="col-lg-3 col-sm-6 align-self-center pb-5">
 						<p class="text-center">Please check out my LinkedIn and GitHub Accounts</p>
-						<a href="https://github.com/judeamiller" target="_blank"><img src="images/github-mark-dark.png" alt="github" class="px-1" height="70px"/></a>
-						<a href="https://www.linkedin.com/in/judeamiller/" target="_blank"><img src="images/linkedin-logo-dark.png" alt="linkedin" class="px-1" height="70px"/></a>
+						<a href="https://github.com/judeamiller" target="_blank"><img src="images/github-mark-dark.png" alt="github" class="px-1 gh-logo"/></a>
+						<a href="https://www.linkedin.com/in/judeamiller/" target="_blank"><img src="images/linkedin-logo-dark.png" alt="linkedin" class="px-1 li-logo"/></a>
+					</div>
+				</div>
+			</div>
+			<!--	modal carousel used in center gallery this is an experiment-->
+			<div id="lightbox" class="modal fade" role="dialog">
+				<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+					<div class="modal-content">
+						<div class="modal-body">
+							<div class="carousel slide" data-ride="carousel" tabindex="-1" id="carousel">
+								<ol class="carousel-indicators">
+									<li data-target="#carousel" data-slide-to="0" class="pointer active"></li>
+									<li data-target="#carousel" data-slide-to="1" class="pointer"></li>
+									<li data-target="#carousel" data-slide-to="2" class="pointer"></li>
+								</ol>
+								<div class="carousel-inner">
+									<div class="carousel-item active">
+										<img class="d-block w-100" src="documentation/images/desktopgallery.png">
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="documentation/images/desktopscrolldown.png">
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="documentation/images/mobilesite.png">
+									</div>
+								</div>
+								<a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+									<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+									<span class="sr-only">Previous</span>
+								</a>
+								<a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+									<span class="carousel-control-next-icon" aria-hidden="true"></span>
+									<span class="sr-only">Next</span>
+								</a>
+							</div>
+						</div>
+						<div class="modal-footer px-3 pb-3 pt-0">
+							<h5 class="modal-title text-uppercase mr-auto">This was a project. I make the best projects. Look at these projects.</h5>
+							<a href="#" role="button" data-dismiss="modal" class="btn btn-secondary px-3">Close</a>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -161,7 +201,7 @@
 		</main>
 		<!--Footer Section-->
 		<footer class="page-footer text-light">
-			<div class="text-center pt-3">
+			<div class="text-center pt-4">
 				<a href="images/Baca-Miller-Resume.pdf" target="_blank"><img src="images/resume-icon.png" alt="resume icon" class="px-2 footer-icon"/></a>
 				<a href="https://github.com/judeamiller" target="_blank"><img src="images/github-mark-light.png" alt="github logo" class="px-2 footer-icon"/></a>
 				<a href="https://www.linkedin.com/in/judeamiller/" target="_blank"><img src="images/linkedin-logo-light.png" alt="linkedin logo" class="px-2 footer-icon"/></a>
