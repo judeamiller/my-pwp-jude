@@ -192,8 +192,8 @@
 							<div class="g-recaptcha" data-sitekey="--YOUR RECAPTCHA SITE KEY--"></div>
 
 							<div class="pt-3">
-								<button class="btn btn-success mr-3" type="submit">Send</button>
-								<button class="btn btn-warning" type="reset">Reset</button>
+								<button class="btn btn-success mr-3 px-2" type="submit"><i class="fas fa-paper-plane pr-2"></i>Send</button>
+								<button class="btn btn-warning px-2" type="reset"><i class="fas fa-trash pr-2"></i>Clear</button>
 							</div>
 						</form>
 

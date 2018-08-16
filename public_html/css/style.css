@@ -100,13 +100,14 @@ h1 {
 
 /*contact form*/
 .btn-warning {
-	background-color: rgba(0,0,0,0.4);
-	width: 5em;
+	background-color: #f0ac49;
+	border-color: #ee9a32;
+	/*width: 5em;*/
 }
 
 .btn-success {
 	color: black;
-	width: 5em;
+	/*width: 5em;*/
 }
 
 /*footer*/
