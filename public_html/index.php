@@ -79,7 +79,7 @@
 						<p>Delicious fettuccine penne tomatoes basil al dente ravioli al dente angel hair, carbonara rotelle lasagna lasagna. Cavatelli sorprese cheesy capellini carbonara, lasagna linguini al dente tripoline al dente penne cheesy basil delicious. Ravioli spaghetti tripoline basil carbonara tripoline pastina carbonara, tomatoes ravioli spaghettini sauce. Ziti pasta angel hair rotelle, cavatelli delicious spaghetti ditalini delicious macaroni ditalini. Sorprese spaghettini pasta cavatelli, sauce tomatoes basil basil rotelle ziti.</p>
 					</div>
 					<div class="col-md-4 align-self-center text-center">
-						<img src="https://www.fillmurray.com/g/400/300" alt="photo" class="rounded">
+						<img src="images/mypic.jpg" alt="photo" class="rounded">
 					</div>
 				</div>
 			</div>
@@ -133,13 +133,13 @@
 								</ol>
 								<div class="carousel-inner">
 									<div class="carousel-item active">
-										<img class="d-block w-100" src="documentation/images/desktopgallery.png">
+										<img class="d-block w-100" src="http://www.miata93le.com/DSC_3942.JPG">
 									</div>
 									<div class="carousel-item">
-										<img class="d-block w-100" src="documentation/images/desktopscrolldown.png">
+										<img class="d-block w-100" src="http://www.miata93le.com/IMG_1352.jpg">
 									</div>
 									<div class="carousel-item">
-										<img class="d-block w-100" src="documentation/images/mobilesite.png">
+										<img class="d-block w-100" src="http://www.miata93le.com/DSC_3930.JPG">
 									</div>
 									<div class="carousel-item">
 										<img class="d-block w-100" src="documentation/images/mpowers.jpg">
