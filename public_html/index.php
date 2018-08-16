@@ -16,6 +16,9 @@
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
 
+		<!--font awesome-->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
 		<!--fancybox-->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css" />
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
@@ -124,7 +127,7 @@
 				<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
 					<div class="modal-content">
 						<div class="modal-body">
-							<a href="#" role="button" data-dismiss="modal" class="btn btn-secondary mb-3">x</a>
+							<a href="#" role="button" data-dismiss="modal" ><i class="far fa-times-circle pb-3"></i></a>
 							<div class="carousel slide" data-ride="carousel" tabindex="-1" id="carousel">
 								<ol class="carousel-indicators">
 									<li data-target="#carousel" data-slide-to="0" class="pointer active"></li>
