@@ -88,6 +88,15 @@ h1 {
 	background-color: #474747;
 }
 
+.modal-backdrop.show {
+	opacity: 0.9;
+}
+
+.fa-times-circle {
+	color: #D3D8DE;
+	font-size: 2em;
+}
+
 
 /*contact form*/
 .btn-warning {
