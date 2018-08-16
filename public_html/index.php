@@ -12,9 +12,9 @@
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js" integrity="sha384-pjaaA8dDz/5BgdFUPX6M/9SUZv4d12SUPF0axWc+VRZkx5xU3daN+lYb49+Ax+Tl" crossorigin="anonymous"></script>
 
 		<!-- jQuery Form, Additional Methods, Validate -->
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
 
 		<!--font awesome-->
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
@@ -137,16 +137,16 @@
 								</ol>
 								<div class="carousel-inner">
 									<div class="carousel-item active">
-										<img class="d-block w-100" src="http://www.miata93le.com/DSC_3942.JPG">
+										<img class="d-block w-100" src="http://www.miata93le.com/DSC_3942.JPG" alt=""/>
 									</div>
 									<div class="carousel-item">
-										<img class="d-block w-100" src="http://www.miata93le.com/IMG_1352.jpg">
+										<img class="d-block w-100" src="http://www.miata93le.com/IMG_1352.jpg" alt=""/>
 									</div>
 									<div class="carousel-item">
-										<img class="d-block w-100" src="http://www.miata93le.com/DSC_3930.JPG">
+										<img class="d-block w-100" src="http://www.miata93le.com/DSC_3930.JPG" alt=""/>
 									</div>
 									<div class="carousel-item">
-										<img class="d-block w-100" src="http://www.miata93le.com/DSC_3928.JPG">
+										<img class="d-block w-100" src="http://www.miata93le.com/DSC_3928.JPG" alt=""/>
 									</div>
 								</div>
 								<a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
