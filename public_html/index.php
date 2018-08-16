@@ -97,6 +97,7 @@
 						<h2 class="p-1">Beach</h2>
 					</div>
 					<div class="col-lg-3 col-sm-6">
+<!--						commented out fancybox images-->
 <!--						<a href="https://www.fillmurray.com/g/200/300" data-fancybox data-caption="meet bill">-->
 <!--							<img src="https://www.fillmurray.com/g/200/300" alt="photo" class="rounded-circle">-->
 <!--						</a>-->
@@ -128,6 +129,7 @@
 									<li data-target="#carousel" data-slide-to="0" class="pointer active"></li>
 									<li data-target="#carousel" data-slide-to="1" class="pointer"></li>
 									<li data-target="#carousel" data-slide-to="2" class="pointer"></li>
+									<li data-target="#carousel" data-slide-to="3" class="pointer"></li>
 								</ol>
 								<div class="carousel-inner">
 									<div class="carousel-item active">
@@ -138,6 +140,9 @@
 									</div>
 									<div class="carousel-item">
 										<img class="d-block w-100" src="documentation/images/mobilesite.png">
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="documentation/images/mpowers.jpg">
 									</div>
 								</div>
 								<a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
@@ -150,8 +155,8 @@
 								</a>
 							</div>
 						</div>
-						<div class="modal-footer px-3 pb-3 pt-0">
-							<h5 class="modal-title text-uppercase mr-auto">This was a project. I make the best projects. Look at these projects.</h5>
+						<div class="modal-footer px-3 py-3 pt-0">
+							<p class="modal-title mr-auto">This was a project. I make the best projects. Look at these projects.</p>
 							<a href="#" role="button" data-dismiss="modal" class="btn btn-secondary px-3">Close</a>
 						</div>
 					</div>
