@@ -170,26 +170,26 @@
 				<h1 class="pb-5" id="contact">Contact Me</h1>
 				<div class="col-md-6">
 					<form id="contact-form" action="php/mailer.php" method="post" >
-						<label for="contactName" class="sr-only">Name</label>
+						<label for="name" class="sr-only">Name</label>
 						<div class="form-group">
-							<input type="text" class="form-control" id="contactName" name="contactName" placeholder="Name" required>
+							<input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
 						</div>
 						<div class="form-group">
-							<label for="contactEmail" class="sr-only">Email</label>
+							<label for="email" class="sr-only">Email</label>
 							<div class="input-group">
-								<input type="email" class="form-control" id="contactEmail" name="contactEmail" placeholder="Email Address" required>
+								<input type="email" class="form-control" id="email" name="email" placeholder="Email Address" required>
 							</div>
 						</div>
 						<div class="form-group">
-							<label for="contactSubject" class="sr-only">Subject</label>
+							<label for="subject" class="sr-only">Subject</label>
 							<div class="input-group">
-								<input type="text" class="form-control" id="contactSubject" name="subject" placeholder="Subject">
+								<input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
 							</div>
 						</div>
 						<div class="form-group">
-							<label for="contactmessage" class="sr-only">Message</label>
+							<label for="message" class="sr-only">Message</label>
 							<div class="input-group">
-								<textarea class="form-control"  id="contactMessage" placeholder="Leave Me A Message" maxlength="250" rows="10"></textarea>
+								<textarea class="form-control"  id="message" placeholder="Leave Me A Message" maxlength="250" rows="10"></textarea>
 							</div>
 						</div>
 
