@@ -189,7 +189,7 @@
 						<div class="form-group">
 							<label for="message" class="sr-only">Message</label>
 							<div class="input-group">
-								<textarea class="form-control"  id="message" placeholder="Leave Me A Message" maxlength="250" rows="10"></textarea>
+								<textarea class="form-control"  id="message" name="message" placeholder="Leave Me A Message" maxlength="250" rows="10"></textarea>
 							</div>
 						</div>
 
