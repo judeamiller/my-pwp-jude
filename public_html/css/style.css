@@ -1,10 +1,10 @@
 /*global*/
 body {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Quicksand', sans-serif;
 }
 
 h1 {
-	font-weight: 100;
+	font-weight: 200;
 }
 
 /*navbar*/
@@ -46,6 +46,12 @@ h1 {
 	transform: rotate(0);
 }
 
+.myName {
+	font-weight: 300;
+	font-size: 1.75em;
+	color: black;
+}
+
 /*about me section*/
 .rounded{
 	max-width: 70%;
@@ -66,12 +72,6 @@ h1 {
 
 .fancybox-hidden {
 	display: none;
-}
-
-.myName {
-	font-weight: 100;
-	font-size: 1.5em;
-	color: black;
 }
 
 .rounded-circle {
