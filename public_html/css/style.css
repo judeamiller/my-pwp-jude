@@ -11,6 +11,10 @@ h2 {
 	font-weight: 200;
 }
 
+main {
+	padding-top: 5em;
+}
+
 /*navbar*/
 /*custom navbar toggler*/
 .icon-bar {
