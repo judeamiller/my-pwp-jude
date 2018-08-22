@@ -39,7 +39,7 @@
 	</head>
 	<body>
 		<header>
-			<nav class="navbar navbar-expand-lg navbar-light border-bottom border-secondary shadow-sm bg-light" >
+			<nav class="navbar navbar-expand-lg navbar-light border-bottom border-secondary shadow-sm bg-light fixed-top" >
 				<div class="navbar-brand text-secondary pl-3" href="#"><span class="myName"> Jude Baca-Miller</span> <br>Web Developer</div>
 				<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="icon-bar top-bar"></span>
