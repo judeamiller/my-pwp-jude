@@ -49,7 +49,7 @@
 				<div class="collapse navbar-collapse" id="navbarNavDropdown">
 					<ul class="navbar-nav ml-auto">
 						<li class="nav-item">
-							<a class="nav-link" href="#aboutMe">AboutMe<span class="sr-only">(current)</span></a>
+							<a class="nav-link" href="#about-me">AboutMe<span class="sr-only">(current)</span></a>
 						</li>
 						<li class="nav-item d-none d-lg-block">
 							<p class="nav-link text-muted">|</p>
@@ -75,10 +75,11 @@
 		</header>
 		<main>
 		<!--About Me-->
+			<a id="about-me"></a>
 			<div class="container-fluid  p-5">
 				<div class="row">
 					<div class="col-md-8 align-self-center">
-						<h1 class="pb-3" id="aboutMe">About Me</h1>
+						<h1 class="pb-3">About Me</h1>
 						<p>Delicious fettuccine penne tomatoes basil al dente ravioli al dente angel hair, carbonara rotelle lasagna lasagna. Cavatelli sorprese cheesy capellini carbonara, lasagna linguini al dente tripoline al dente penne cheesy basil delicious. Ravioli spaghetti tripoline basil carbonara tripoline pastina carbonara, tomatoes ravioli spaghettini sauce. Ziti pasta angel hair rotelle, cavatelli delicious spaghetti ditalini delicious macaroni ditalini. Sorprese spaghettini pasta cavatelli, sauce tomatoes basil basil rotelle ziti.</p>
 					</div>
 					<div class="col-md-4 align-self-center text-center">
@@ -87,8 +88,9 @@
 				</div>
 			</div>
 			<!--Portfolio-->
+			<a id="portfolio"></a>
 			<div class="container-fluid  p-5 portfolio-section">
-				<h1 class="pb-4" id="portfolio">Portfolio</h1>
+				<h1 class="pb-4">Portfolio</h1>
 				<div class="row text-center">
 					<div class="col-lg-3 col-sm-6">
 						<a href="https://picsum.photos/200/300" data-fancybox="gallery" data-caption="Caption #1">
@@ -166,8 +168,9 @@
 				</div>
 			</div>
 			<!--Contact Form-->
+			<a id="contact"></a>
 			<div class="container-fluid p-5">
-				<h1 class="pb-5" id="contact">Contact Me</h1>
+				<h1 class="pb-5">Contact Me</h1>
 				<div class="col-md-6">
 					<form id="contact-form" action="php/mailer.php" method="post" >
 						<label for="name" class="sr-only">Name</label>
