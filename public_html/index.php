@@ -35,6 +35,9 @@
 		<!--local stylesheet-->
 		<link rel="stylesheet" href="css/style.css"/>
 
+		<!--Local JavaScript-->
+		<script src="js/scripts.js"></script>
+
 		<title>Jude's Portfolio</title>
 	</head>
 	<body>
