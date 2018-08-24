@@ -40,7 +40,7 @@
 
 		<title>Jude's Portfolio</title>
 	</head>
-	<body data-spy="scroll" data-target="#navigation-bar" data-offset="90">
+	<body data-spy="scroll" data-target="#navigation-bar" data-offset="125">
 		<header>
 			<nav class="navbar navbar-expand-lg navbar-light border-bottom border-secondary shadow-sm bg-light fixed-top" id="navigation-bar" >
 				<div class="navbar-brand text-secondary pl-3" href="#"><span class="myName"> Jude Baca-Miller</span> <br>Web Developer</div>
