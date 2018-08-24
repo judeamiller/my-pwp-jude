@@ -40,7 +40,7 @@
 
 		<title>Jude's Portfolio</title>
 	</head>
-	<body data-spy="scroll" data-target="#navigation-bar" data-offset="125">
+	<body data-spy="scroll" data-target="#navigation-bar" data-offset="90">
 		<header>
 			<nav class="navbar navbar-expand-lg navbar-light border-bottom border-secondary shadow-sm bg-light fixed-top" id="navigation-bar" >
 				<div class="navbar-brand text-secondary pl-3" href="#"><span class="myName"> Jude Baca-Miller</span> <br>Web Developer</div>
@@ -77,11 +77,12 @@
 			</nav>
 		</header>
 		<main>
-		<!--About Me-->
+			<!--About Me-->
+			<a id="about-me">about</a>
 			<div class="container-fluid  p-5">
 				<div class="row">
 					<div class="col-md-8 align-self-center">
-						<a id="about-me"><h1 class="pb-3">About Me</h1></a>
+						<h1 class="pb-3">About Me</h1>
 						<p>Delicious fettuccine penne tomatoes basil al dente ravioli al dente angel hair, carbonara rotelle lasagna lasagna. Cavatelli sorprese cheesy capellini carbonara, lasagna linguini al dente tripoline al dente penne cheesy basil delicious. Ravioli spaghetti tripoline basil carbonara tripoline pastina carbonara, tomatoes ravioli spaghettini sauce. Ziti pasta angel hair rotelle, cavatelli delicious spaghetti ditalini delicious macaroni ditalini. Sorprese spaghettini pasta cavatelli, sauce tomatoes basil basil rotelle ziti.</p>
 					</div>
 					<div class="col-md-4 align-self-center text-center">
@@ -90,8 +91,9 @@
 				</div>
 			</div>
 			<!--Portfolio-->
+			<a id="portfolio">portfolio</a>
 			<div class="container-fluid  p-5 portfolio-section">
-				<a id="portfolio"><h1 class="pb-4">Portfolio</h1></a>
+				<h1 class="pb-4">Portfolio</h1>
 				<div class="row text-center">
 					<div class="col-lg-3 col-sm-6">
 						<a href="https://picsum.photos/200/300" data-fancybox="gallery" data-caption="Caption #1">
@@ -103,10 +105,10 @@
 						<h2 class="p-1">Beach</h2>
 					</div>
 					<div class="col-lg-3 col-sm-6">
-<!--						commented out fancybox images-->
-<!--						<a href="https://www.fillmurray.com/g/200/300" data-fancybox data-caption="meet bill">-->
-<!--							<img src="https://www.fillmurray.com/g/200/300" alt="photo" class="rounded-circle">-->
-<!--						</a>-->
+						<!--						commented out fancybox images-->
+						<!--						<a href="https://www.fillmurray.com/g/200/300" data-fancybox data-caption="meet bill">-->
+						<!--							<img src="https://www.fillmurray.com/g/200/300" alt="photo" class="rounded-circle">-->
+						<!--						</a>-->
 
 						<a href="#lightbox"  data-toggle="modal" data-slide-to="1"><img src="https://www.fillmurray.com/g/200/300" alt="" class="rounded-circle"/></a>
 
@@ -169,8 +171,9 @@
 				</div>
 			</div>
 			<!--Contact Form-->
+			<a id="contact">contact</a>
 			<div class="container-fluid p-5">
-				<a id="contact"><h1 class="pb-5">Contact Me</h1></a>
+				<h1 class="pb-5">Contact Me</h1>
 				<div class="col-md-6">
 					<form id="contact-form" action="php/mailer.php" method="post" >
 						<label for="name" class="sr-only">Name</label>
@@ -196,7 +199,7 @@
 							</div>
 						</div>
 
-							<!-- reCAPTCHA -->
+						<!-- reCAPTCHA -->
 						<div class="g-recaptcha" data-sitekey="6LdhX2oUAAAAADliOsNsY3llJJiE5HR_3y0QSbsp"></div>
 						<div class="pt-3">
 							<button class="btn btn-success mr-3 px-2" type="submit"><i class="fas fa-paper-plane pr-2"></i>Send</button>
@@ -204,7 +207,7 @@
 						</div>
 					</form>
 
-						<!--empty area for form error/success output-->
+					<!--empty area for form error/success output-->
 					<div class="row">
 						<div class="col-xs-12 pt-5">
 							<div id="output-area"></div>
