@@ -15,11 +15,17 @@ main {
 	padding-top: 5em;
 }
 
+
 :target {
 	display: block;
 	position: relative;
-	top: -6em;
+	top: -5em;
 	visibility: hidden;
+}
+
+/*using this to make pseudo hidden text that is visible for scrollspy*/
+#about-me ,#portfolio, #contact {
+	color: white;
 }
 
 /*navbar*/
