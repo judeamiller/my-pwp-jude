@@ -78,7 +78,7 @@
 		</header>
 		<main>
 			<!--About Me-->
-			<a id="about-me">about</a>
+			<a aria-hidden="true" id="about-me">about</a>
 			<div class="container-fluid  p-5">
 				<div class="row">
 					<div class="col-md-8 align-self-center">
@@ -91,7 +91,7 @@
 				</div>
 			</div>
 			<!--Portfolio-->
-			<a id="portfolio">portfolio</a>
+			<a aria-hidden="true" id="portfolio">portfolio</a>
 			<div class="container-fluid  p-5 portfolio-section">
 				<h1 class="pb-4">Portfolio</h1>
 				<div class="row text-center">
@@ -171,7 +171,7 @@
 				</div>
 			</div>
 			<!--Contact Form-->
-			<a id="contact">contact</a>
+			<a aria-hidden="true" id="contact">contact</a>
 			<div class="container-fluid p-5">
 				<h1 class="pb-5">Contact Me</h1>
 				<div class="col-md-6">
