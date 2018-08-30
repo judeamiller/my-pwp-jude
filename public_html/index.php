@@ -62,7 +62,7 @@
 	<body data-spy="scroll" data-target="#navigation-bar" data-offset="90">
 		<header>
 			<nav class="navbar navbar-expand-lg navbar-light border-bottom border-secondary shadow-sm bg-light fixed-top" id="navigation-bar" >
-				<div class="navbar-brand text-secondary pl-3" href="#"><span class="myName"> Jude Baca-Miller</span> <br>Web Developer</div>
+				<div class="navbar-brand text-secondary" href="#"><span class="myName"> Jude Baca-Miller</span> <br>Web Developer</div>
 				<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="icon-bar top-bar"></span>
 					<span class="icon-bar middle-bar"></span>
@@ -98,7 +98,7 @@
 		<main>
 			<!--About Me-->
 			<a aria-hidden="true" id="about-me">about</a>
-			<div class="container-fluid  p-5">
+			<div class="container-fluid  py-5">
 				<div class="row">
 					<div class="col-md-8 align-self-center">
 						<h1 class="pb-3">About Me</h1>
@@ -111,7 +111,7 @@
 			</div>
 			<!--Portfolio-->
 			<a aria-hidden="true" id="portfolio">portfolio</a>
-			<div class="container-fluid  p-5 portfolio-section">
+			<div class="container-fluid  py-5 portfolio-section">
 				<h1 class="pb-4">Portfolio</h1>
 				<div class="row text-center">
 					<div class="col-lg-3 col-sm-6">
@@ -191,7 +191,7 @@
 			</div>
 			<!--Contact Form-->
 			<a aria-hidden="true" id="contact">contact</a>
-			<div class="container-fluid p-5">
+			<div class="container-fluid py-5">
 				<h1 class="pb-5">Contact Me</h1>
 				<div class="col-md-6">
 					<form id="contact-form" action="php/mailer.php" method="post" >
