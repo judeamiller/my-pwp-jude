@@ -189,7 +189,7 @@
 					</div>
 				</div>
 			</div>
-			<!--Contact Form-->
+			<!--Contact Form Section-->
 			<a aria-hidden="true" id="contact">contact</a>
 			<div class="container-fluid py-5">
 				<h1 class="pb-5">Contact Me</h1>
