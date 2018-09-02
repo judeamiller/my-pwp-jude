@@ -19,10 +19,6 @@
 		<!--font awesome-->
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 
-		<!--fancybox-->
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css" />
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
-
 		<!-- Your JavaScript Form Validator -->
 		<script src="js/form-validate.js"></script>
 
@@ -102,7 +98,14 @@
 				<div class="row">
 					<div class="col-md-8 align-self-center">
 						<h1 class="pb-3">About Me</h1>
-						<p>Delicious fettuccine penne tomatoes basil al dente ravioli al dente angel hair, carbonara rotelle lasagna lasagna. Cavatelli sorprese cheesy capellini carbonara, lasagna linguini al dente tripoline al dente penne cheesy basil delicious. Ravioli spaghetti tripoline basil carbonara tripoline pastina carbonara, tomatoes ravioli spaghettini sauce. Ziti pasta angel hair rotelle, cavatelli delicious spaghetti ditalini delicious macaroni ditalini. Sorprese spaghettini pasta cavatelli, sauce tomatoes basil basil rotelle ziti.</p>
+						<p>I am a web developer living in downtown Albuquerque, NM. I completed the Deep Dive Full Stack Web Development
+							bootcamp in 2018.	I am excited to join the growing tech industry in Albuquerque because it ties together my prior
+							experience as a designer and educator.</p>
+
+						<p>I am drawn to coding because I am a tinkerer at heart. In my free time I enjoy taking on projects that allow
+							me to build things and learn about their inner workings. Coding fills my desire to tinker using a new set of tools,
+							lines of code. Please check out my portfolio and LinkedIn and GitHub profiles. Please use the contact form below if
+							you would like to get in touch.</p>
 					</div>
 					<div class="col-md-4 align-self-center text-center">
 						<img src="images/mypic.jpg" alt="photo" class="rounded">
@@ -115,19 +118,10 @@
 				<h1 class="pb-4">Portfolio</h1>
 				<div class="row text-center">
 					<div class="col-lg-3 col-sm-6">
-						<a href="https://picsum.photos/200/300" data-fancybox="gallery" data-caption="Caption #1">
-							<img src="https://picsum.photos/200/300" alt="bla" class="rounded-circle"/>
-						</a>
-						<a href="documentation/images/mobilesite.png" data-fancybox="gallery" data-caption="Caption #2"></a>
-						<a href="documentation/images/desktopgallery.png" data-fancybox="gallery" data-caption="Caption #3"></a>
-						<a href="documentation/images/desktopscrolldown.png" data-fancybox="gallery" data-caption="Caption #4"></a>
-						<h2 class="p-1">Beach</h2>
+						<a href="#lostpaws-gallery"  data-toggle="modal" data-slide-to="1"><img src="https://www.fillmurray.com/g/200/300" alt="" class="rounded-circle"/></a>
+						<h2 class="p-1">Lost-Paws</h2>
 					</div>
 					<div class="col-lg-3 col-sm-6">
-						<!--						commented out fancybox images-->
-						<!--						<a href="https://www.fillmurray.com/g/200/300" data-fancybox data-caption="meet bill">-->
-						<!--							<img src="https://www.fillmurray.com/g/200/300" alt="photo" class="rounded-circle">-->
-						<!--						</a>-->
 
 						<a href="#lightbox"  data-toggle="modal" data-slide-to="1"><img src="https://www.fillmurray.com/g/200/300" alt="" class="rounded-circle"/></a>
 
@@ -146,18 +140,18 @@
 					</div>
 				</div>
 			</div>
-			<!--	modal carousel used in center gallery this is an experiment-->
-			<div id="lightbox" class="modal fade" role="dialog">
+			<!--	modal carousel used in the first gallery-->
+			<div id="lostpaws-gallery" class="modal fade" role="dialog">
 				<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
 					<div class="modal-content">
 						<div class="modal-body">
 							<a href="#" role="button" data-dismiss="modal" ><i class="far fa-times-circle pb-3"></i></a>
-							<div class="carousel slide" data-ride="carousel" tabindex="-1" id="carousel">
+							<div class="carousel slide" data-ride="carousel" tabindex="-1" id="carousel1">
 								<ol class="carousel-indicators">
-									<li data-target="#carousel" data-slide-to="0" class="pointer active"></li>
-									<li data-target="#carousel" data-slide-to="1" class="pointer"></li>
-									<li data-target="#carousel" data-slide-to="2" class="pointer"></li>
-									<li data-target="#carousel" data-slide-to="3" class="pointer"></li>
+									<li data-target="#carousel1" data-slide-to="0" class="pointer active"></li>
+									<li data-target="#carousel1" data-slide-to="1" class="pointer"></li>
+									<li data-target="#carousel1" data-slide-to="2" class="pointer"></li>
+									<li data-target="#carousel1" data-slide-to="3" class="pointer"></li>
 								</ol>
 								<div class="carousel-inner">
 									<div class="carousel-item active">
@@ -173,11 +167,54 @@
 										<img class="d-block w-100" src="http://www.miata93le.com/DSC_3928.JPG" alt=""/>
 									</div>
 								</div>
-								<a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+								<a class="carousel-control-prev" href="#carousel1" role="button" data-slide="prev">
 									<span class="carousel-control-prev-icon" aria-hidden="true"></span>
 									<span class="sr-only">Previous</span>
 								</a>
-								<a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+								<a class="carousel-control-next" href="#carousel1" role="button" data-slide="next">
+									<span class="carousel-control-next-icon" aria-hidden="true"></span>
+									<span class="sr-only">Next</span>
+								</a>
+							</div>
+						</div>
+						<div class="modal-footer px-3 py-3 pt-0">
+							<p class="modal-title text-light mr-auto">This was a project. I make the best projects. Look at these projects.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--	modal carousel used in center gallery-->
+			<div id="lightbox" class="modal fade" role="dialog">
+				<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+					<div class="modal-content">
+						<div class="modal-body">
+							<a href="#" role="button" data-dismiss="modal" ><i class="far fa-times-circle pb-3"></i></a>
+							<div class="carousel slide" data-ride="carousel" tabindex="-1" id="carousel2">
+								<ol class="carousel-indicators">
+									<li data-target="#carousel2" data-slide-to="0" class="pointer active"></li>
+									<li data-target="#carousel2" data-slide-to="1" class="pointer"></li>
+									<li data-target="#carousel2" data-slide-to="2" class="pointer"></li>
+									<li data-target="#carousel2" data-slide-to="3" class="pointer"></li>
+								</ol>
+								<div class="carousel-inner">
+									<div class="carousel-item active">
+										<img class="d-block w-100" src="http://www.miata93le.com/DSC_3942.JPG" alt=""/>
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="http://www.miata93le.com/IMG_1352.jpg" alt=""/>
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="http://www.miata93le.com/DSC_3930.JPG" alt=""/>
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="http://www.miata93le.com/DSC_3928.JPG" alt=""/>
+									</div>
+								</div>
+								<a class="carousel-control-prev" href="#carousel2" role="button" data-slide="prev">
+									<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+									<span class="sr-only">Previous</span>
+								</a>
+								<a class="carousel-control-next" href="#carousel2" role="button" data-slide="next">
 									<span class="carousel-control-next-icon" aria-hidden="true"></span>
 									<span class="sr-only">Next</span>
 								</a>
