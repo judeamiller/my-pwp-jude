@@ -118,20 +118,20 @@
 				<h1 class="pb-4">Portfolio</h1>
 				<div class="row text-center">
 					<div class="col-lg-3 col-sm-6">
-						<a href="#lostpaws-gallery"  data-toggle="modal" data-slide-to="1"><img src="https://www.fillmurray.com/g/200/300" alt="" class="rounded-circle"/></a>
+						<a href="#lostpaws-gallery"  data-toggle="modal" data-slide-to="1"><img src="./images/lost-paws-mobile.jpg" alt="" class="rounded-circle"/></a>
 						<h2 class="p-1">Lost-Paws</h2>
 					</div>
 					<div class="col-lg-3 col-sm-6">
 
 						<a href="#lightbox"  data-toggle="modal" data-slide-to="1"><img src="https://www.fillmurray.com/g/200/300" alt="" class="rounded-circle"/></a>
 
-						<h2 class="p-1">Bill</h2>
+						<h2 class="p-1">Professional Work</h2>
 					</div>
 					<div class="col-lg-3 col-sm-6">
 						<a href="https://picsum.photos/400/400" data-fancybox data-caption="This is a picture of a lighthouse. I built this lighthouse myself.">
 							<img src="https://picsum.photos/400/400" alt="photo" class="rounded-circle">
 						</a>
-						<h2 class="p-1">Lighthouse</h2>
+						<h2 class="p-1">Personal Projects</h2>
 					</div>
 					<div class="col-lg-3 col-sm-6 align-self-center pb-5">
 						<p class="text-center">Please check out my LinkedIn and GitHub Accounts</p>
@@ -155,16 +155,16 @@
 								</ol>
 								<div class="carousel-inner">
 									<div class="carousel-item active">
-										<img class="d-block w-100" src="http://www.miata93le.com/DSC_3942.JPG" alt=""/>
+										<img class="d-block w-100" src="./images/lost-paws-screenshot.png" alt=""/>
 									</div>
 									<div class="carousel-item">
-										<img class="d-block w-100" src="http://www.miata93le.com/IMG_1352.jpg" alt=""/>
+										<img class="d-block w-100" src="./images/lost-paws-mobile-slide.jpg" alt=""/>
 									</div>
 									<div class="carousel-item">
-										<img class="d-block w-100" src="http://www.miata93le.com/DSC_3930.JPG" alt=""/>
+										<img class="d-block w-100" src="./images/lost-paws-wireframe.png" alt=""/>
 									</div>
 									<div class="carousel-item">
-										<img class="d-block w-100" src="http://www.miata93le.com/DSC_3928.JPG" alt=""/>
+										<img class="d-block w-100" src="./images/lost-paws-post-screenshot.png" alt=""/>
 									</div>
 								</div>
 								<a class="carousel-control-prev" href="#carousel1" role="button" data-slide="prev">
@@ -178,7 +178,8 @@
 							</div>
 						</div>
 						<div class="modal-footer px-3 py-3 pt-0">
-							<p class="modal-title text-light mr-auto">This was a project. I make the best projects. Look at these projects.</p>
+							<p class="modal-title text-light mr-auto">Lost Paws is a project created by a team of 4 Deep Dive Coding bootcamp students. Lost Paws is a mobile-first web application that is designed
+								to help reunite lost pets with their owners. Lost Paws is built using PHP, mySQL, BootStrap, and Angular 6. <a href="https://github.com/jisbell347/lost-paws" target="_blank"><i class="fab fa-github"></i></a></p>
 						</div>
 					</div>
 				</div>
