@@ -200,25 +200,25 @@
 								<div class="carousel-inner">
 									<div class="carousel-item active">
 										<img class="d-block w-100" src="./images/miata-bootstrap-challenge.png" alt="Bootstrap Challenge"/>
-										<div class="carousel-caption d-none d-md-block">
+										<div class="carousel-caption d-none d-lg-block">
 											<p>This is a class project I was assigned during the Deep Dive bootcamp to become acquainted with Bootstrap 4. I went overboard and dedicated the page to my favorite car. <a href="https://github.com/judeamiller/bootstrap-challenge" target="_blank"><i class="fab fa-github"></i></a></p>
 										</div>
 									</div>
 									<div class="carousel-item">
 										<img class="d-block w-100" src="./images/dvorak-drumkit.png" alt="Dvorak Keyboard Drumkit"/>
-										<div class="carousel-caption d-none d-md-block">
+										<div class="carousel-caption d-none d-lg-block">
 											<p><strong>Dvorak Drumkit</strong> I have been working on sharpening my JavaScript skill set and using Wes Bos' JavaScript 30 tutorials. I had to modify his JavaScript Drumkit to match my Dvorak Keyboard layout. <a href="https://github.com/judeamiller/JavaScript-Drumkit" target="_blank"><i class="fab fa-github"></i></a></p>
 										</div>
 									</div>
 									<div class="carousel-item">
 										<img class="d-block w-100" src="./images/planning-portfolio.jpg" alt="Planning work"/>
-										<div class="carousel-caption d-none d-md-block">
+										<div class="carousel-caption d-none d-lg-block">
 											<p>I worked as a planner at WHPacific from 2008-2010 producing planning documents, renderings, and architectural programs.</p>
 										</div>
 									</div>
 									<div class="carousel-item">
 										<img class="d-block w-100" src="./images/marketing-graphics.jpg" alt=""/>
-										<div class="carousel-caption d-none d-md-block">
+										<div class="carousel-caption d-none d-lg-block">
 											<p>I worked as a marketing graphics coordinator for WHPacific from 2010-2011 helping assemble marketing proposals, posters, and other marketing materials.</p>
 										</div>
 									</div>
