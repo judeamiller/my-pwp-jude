@@ -118,18 +118,18 @@
 				<h1 class="pb-4">Portfolio</h1>
 				<div class="row text-center">
 					<div class="col-lg-3 col-sm-6">
-						<a href="#lostpaws-gallery"  data-toggle="modal" data-slide-to="1"><img src="./images/lost-paws-mobile.jpg" alt="" class="rounded-circle"/></a>
+						<a href="#lostpaws-gallery"  data-toggle="modal" data-slide-to="1"><img src="./images/lost-paws-mobile.jpg" alt="" class="rounded-circle border border-secondary shadow-sm"/></a>
 						<h2 class="p-1">Lost-Paws</h2>
 					</div>
 					<div class="col-lg-3 col-sm-6">
 
-						<a href="#lightbox"  data-toggle="modal" data-slide-to="1"><img src="https://www.fillmurray.com/g/200/300" alt="" class="rounded-circle"/></a>
+						<a href="#professional-gallery"  data-toggle="modal" data-slide-to="1"><img src="./images/bootstrap-chall-thumb.jpg" alt="" class="rounded-circle border border-secondary shadow-sm"/></a>
 
 						<h2 class="p-1">Professional Work</h2>
 					</div>
 					<div class="col-lg-3 col-sm-6">
 						<a href="https://picsum.photos/400/400" data-fancybox data-caption="This is a picture of a lighthouse. I built this lighthouse myself.">
-							<img src="https://picsum.photos/400/400" alt="photo" class="rounded-circle">
+							<img src="https://picsum.photos/400/400" alt="photo" class="rounded-circle border border-secondary shadow-sm">
 						</a>
 						<h2 class="p-1">Personal Projects</h2>
 					</div>
@@ -185,7 +185,7 @@
 				</div>
 			</div>
 			<!--	modal carousel used in center gallery-->
-			<div id="lightbox" class="modal fade" role="dialog">
+			<div id="professional-gallery" class="modal fade" role="dialog">
 				<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
 					<div class="modal-content">
 						<div class="modal-body">
@@ -199,16 +199,28 @@
 								</ol>
 								<div class="carousel-inner">
 									<div class="carousel-item active">
-										<img class="d-block w-100" src="http://www.miata93le.com/DSC_3942.JPG" alt=""/>
+										<img class="d-block w-100" src="./images/miata-bootstrap-challenge.png" alt="Bootstrap Challenge"/>
+										<div class="carousel-caption d-none d-md-block">
+											<p>This is a class project I was assigned during the Deep Dive bootcamp to become acquainted with Bootstrap 4. I went overboard and dedicated the page to my favorite car. <a href="https://github.com/judeamiller/bootstrap-challenge" target="_blank"><i class="fab fa-github"></i></a></p>
+										</div>
 									</div>
 									<div class="carousel-item">
-										<img class="d-block w-100" src="http://www.miata93le.com/IMG_1352.jpg" alt=""/>
+										<img class="d-block w-100" src="./images/dvorak-drumkit.png" alt="Dvorak Keyboard Drumkit"/>
+										<div class="carousel-caption d-none d-md-block">
+											<p><strong>Dvorak Drumkit</strong> I have been working on sharpening my JavaScript skill set and using Wes Bos' JavaScript 30 tutorials. I had to modify his JavaScript Drumkit to match my Dvorak Keyboard layout. <a href="https://github.com/judeamiller/JavaScript-Drumkit" target="_blank"><i class="fab fa-github"></i></a></p>
+										</div>
 									</div>
 									<div class="carousel-item">
-										<img class="d-block w-100" src="http://www.miata93le.com/DSC_3930.JPG" alt=""/>
+										<img class="d-block w-100" src="./images/planning-portfolio.jpg" alt="Planning work"/>
+										<div class="carousel-caption d-none d-md-block">
+											<p>I worked as a planner at WHPacific from 2008-2010 producing planning documents, renderings, and architectural programs.</p>
+										</div>
 									</div>
 									<div class="carousel-item">
-										<img class="d-block w-100" src="http://www.miata93le.com/DSC_3928.JPG" alt=""/>
+										<img class="d-block w-100" src="./images/marketing-graphics.jpg" alt=""/>
+										<div class="carousel-caption d-none d-md-block">
+											<p>I worked as a marketing graphics coordinator for WHPacific from 2010-2011 helping assemble marketing proposals, posters, and other marketing materials.</p>
+										</div>
 									</div>
 								</div>
 								<a class="carousel-control-prev" href="#carousel2" role="button" data-slide="prev">
@@ -222,7 +234,7 @@
 							</div>
 						</div>
 						<div class="modal-footer px-3 py-3 pt-0">
-							<p class="modal-title text-light mr-auto">This was a project. I make the best projects. Look at these projects.</p>
+							<p class="modal-title text-light mr-auto">This gallery includes an assortment of my professional work.</p>
 						</div>
 					</div>
 				</div>
