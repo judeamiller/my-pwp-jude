@@ -118,15 +118,15 @@
 				<h1 class="pb-4">Portfolio</h1>
 				<div class="row text-center">
 					<div class="col-lg-3 col-sm-6">
-						<a href="#lostpaws-gallery"  data-toggle="modal" data-slide-to="1"><img src="./images/lost-paws-mobile.jpg" alt="" class="rounded-circle border border-secondary shadow-sm"/></a>
+						<a href="#lostpaws-gallery"  data-toggle="modal" data-slide-to="1"><img src="./images/lost-paws-mobile.jpg" alt="lost-paws screenshot" class="rounded-circle border border-secondary shadow-sm"/></a>
 						<h2 class="p-1">Lost-Paws</h2>
 					</div>
 					<div class="col-lg-3 col-sm-6">
-						<a href="#professional-gallery"  data-toggle="modal" data-slide-to="1"><img src="./images/bootstrap-chall-thumb.jpg" alt="" class="rounded-circle border border-secondary shadow-sm"/></a>
+						<a href="#professional-gallery"  data-toggle="modal" data-slide-to="1"><img src="./images/bootstrap-chall-thumb.jpg" alt="bootstrap screenshot" class="rounded-circle border border-secondary shadow-sm"/></a>
 						<h2 class="p-1">Professional Work</h2>
 					</div>
 					<div class="col-lg-3 col-sm-6">
-						<a href="#personal-gallery" data-toggle="modal" data-slide-to="1"><img src="./images/bootstrap-chall-thumb.jpg" alt="" class="rounded-circle border border-secondary shadow-sm"/></a>
+						<a href="#personal-gallery" data-toggle="modal" data-slide-to="1"><img src="./images/gears.jpg" alt="open transmission" class="rounded-circle border border-secondary shadow-sm"/></a>
 						<h2 class="p-1">Personal Projects</h2>
 					</div>
 					<div class="col-lg-3 col-sm-6 align-self-center pb-5">
@@ -246,31 +246,24 @@
 									<li data-target="#carousel3" data-slide-to="0" class="pointer active"></li>
 									<li data-target="#carousel3" data-slide-to="1" class="pointer"></li>
 									<li data-target="#carousel3" data-slide-to="2" class="pointer"></li>
-									<li data-target="#carousel3" data-slide-to="3" class="pointer"></li>
 								</ol>
 								<div class="carousel-inner">
 									<div class="carousel-item active">
-										<img class="d-block w-100" src="./images/miata-bootstrap-challenge.png" alt="Bootstrap Challenge"/>
+										<img class="d-block w-100" src="./images/tinkerer.jpg" alt="tinkerer"/>
 										<div class="carousel-caption d-none d-lg-block">
-											<p>This is a class project I was assigned during the Deep Dive bootcamp to become acquainted with Bootstrap 4. I went overboard and dedicated the page to my favorite car. <a href="https://github.com/judeamiller/bootstrap-challenge" target="_blank"><i class="fab fa-github"></i></a></p>
+											<p>I am a tinkerer at heart. In my free time, I enjoy taking on projects that are outside of my comfort zone and challenge me to learn new skills. My career change to coding is an extension of this drive.</p>
 										</div>
 									</div>
 									<div class="carousel-item">
-										<img class="d-block w-100" src="./images/dvorak-drumkit.png" alt="Dvorak Keyboard Drumkit"/>
+										<img class="d-block w-100" src="./images/miata-rehab.jpg" alt="93LE Miata"/>
 										<div class="carousel-caption d-none d-lg-block">
-											<p><strong>Dvorak Drumkit</strong> I have been working on sharpening my JavaScript skill set and using Wes Bos' JavaScript 30 tutorials. I had to modify his JavaScript Drumkit to match my Dvorak Keyboard layout. <a href="https://github.com/judeamiller/JavaScript-Drumkit" target="_blank"><i class="fab fa-github"></i></a></p>
+											<p>In spring of 2105 I picked up a 93LE Miata that was mostly complete, but needed some help. This this is the first black that I have painted in my garage. After a thorough DIY cosmetic and mechanical refresh, I have a classic car that I am proud of.</p>
 										</div>
 									</div>
 									<div class="carousel-item">
-										<img class="d-block w-100" src="./images/planning-portfolio.jpg" alt="Planning work"/>
+										<img class="d-block w-100" src="./images/kitchen-renovation.png" alt="Kitchen renovation"/>
 										<div class="carousel-caption d-none d-lg-block">
-											<p>I worked as a planner at WHPacific from 2008-2010 producing planning documents, renderings, and architectural programs.</p>
-										</div>
-									</div>
-									<div class="carousel-item">
-										<img class="d-block w-100" src="./images/marketing-graphics.jpg" alt=""/>
-										<div class="carousel-caption d-none d-lg-block">
-											<p>I worked as a marketing graphics coordinator for WHPacific from 2010-2011 helping assemble marketing proposals, posters, and other marketing materials.</p>
+											<p>I share a small mid-century house in downtown Albuquerque with my wife, Britt. Owning an old house has provided many learning experiences. Pictured is my kitchen renovation project. Taking on DIY projects has allowed me to learn carpentry, plumbing, tilework, and painting.</p>
 										</div>
 									</div>
 								</div>
