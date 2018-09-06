@@ -58,7 +58,7 @@
 	<body data-spy="scroll" data-target="#navigation-bar" data-offset="90">
 		<header>
 			<nav class="navbar navbar-expand-lg navbar-light border-bottom border-secondary shadow-sm bg-light fixed-top" id="navigation-bar" >
-				<div class="navbar-brand text-secondary" href="#"><span class="myName"> Jude Baca-Miller</span> <br>Web Developer</div>
+				<div class="navbar-brand text-secondary"><span class="myName"> Jude Baca-Miller</span> <br>Web Developer</div>
 				<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="icon-bar top-bar"></span>
 					<span class="icon-bar middle-bar"></span>
